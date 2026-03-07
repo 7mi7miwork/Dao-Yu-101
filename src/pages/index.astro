@@ -1,7 +1,9 @@
 ---
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
-import Card from '../components/Card.jsx';
+import Hero from '../components/Hero.jsx';
+import IslandMap from '../components/IslandMap.jsx';
+import LearningPath from '../components/LearningPath.jsx';
 ---
 
 <!DOCTYPE html>
@@ -18,42 +20,13 @@ import Card from '../components/Card.jsx';
 </head>
 <body>
   <Navbar />
-  
-  <main className="main-container">
-    <section className="hero-section">
-      <div className="hero-content">
-        <h1 className="hero-title">Dao-Yu-101</h1>
-        <p className="hero-subtitle">Willkommen auf deiner Lerninsel!</p>
-      </div>
-    </section>
 
-    <section className="cards-section">
-      <div className="cards-container">
-        <h2 className="section-title">Module</h2>
-        <div className="cards-grid">
-          <Card 
-            title="Grundlagen" 
-            description="Einführung in die Grundlagen" 
-            link="/lesson1"
-          />
-          <Card 
-            title="Fortgeschritten" 
-            description="Vertiefung der Kenntnisse" 
-            link="/lesson2"
-          />
-          <Card 
-            title="Projekt" 
-            description="Praktische Anwendung" 
-            link="/lesson3"
-          />
-          <Card 
-            title="Zertifikat" 
-            description="Abschlussprüfung" 
-            link="/certificate"
-          />
-        </div>
-      </div>
-    </section>
+  <main className="main-container">
+    <Hero />
+
+    <IslandMap />
+
+    <LearningPath />
   </main>
 
   <Footer />
