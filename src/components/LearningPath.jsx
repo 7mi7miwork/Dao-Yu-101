@@ -35,13 +35,6 @@ export default function LearningPath() {
                 <p>Erstelle eigene Projekte</p>
               </div>
             </div>
-            <div className="path-step">
-              <div className="step-number">5</div>
-              <div className="step-info">
-                <h3>Zertifikat</h3>
-                <p>Bestätige deine Fähigkeiten</p>
-              </div>
-            </div>
           </div>
           <div className="path-line"></div>
         </div>

@@ -1,34 +1,12 @@
 ---
-import Navbar from '../components/Navbar.jsx';
-import Footer from '../components/Footer.jsx';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.jsx';
 import IslandMap from '../components/IslandMap.jsx';
 import LearningPath from '../components/LearningPath.jsx';
 ---
 
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Dao-Yu-101 - Lernplattform</title>
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/main.css" />
-</head>
-<body>
-  <Navbar />
-
-  <main className="main-container">
-    <Hero />
-
-    <IslandMap />
-
-    <LearningPath />
-  </main>
-
-  <Footer />
-</body>
-</html>
+<BaseLayout>
+  <Hero />
+  <IslandMap />
+  <LearningPath />
+</BaseLayout>

@@ -6,9 +6,7 @@ export default function IslandMap() {
     { title: 'Grundlagen', description: 'Einführung in die Grundlagen', link: '/lesson1' },
     { title: 'Theorie', description: 'Vertiefung der Theorie', link: '/lesson2' },
     { title: 'Praxis', description: 'Praktische Anwendung', link: '/lesson3' },
-    { title: 'Projekte', description: 'Projektarbeit', link: '/projects' },
-    { title: 'Zertifikat', description: 'Abschlussprüfung', link: '/certificate' },
-    { title: 'Community', description: 'Austausch mit anderen', link: '/community' }
+    { title: 'Projekte', description: 'Projektarbeit', link: '/projects' }
   ];
 
   return (
