@@ -1,0 +1,51 @@
+---
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
+---
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Fortgeschritten - Dao-Yu-101</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <Navbar />
+  
+  <main className="main-container">
+    <section className="lesson-section">
+      <div className="lesson-container">
+        <h1 className="lesson-title">Fortgeschritten</h1>
+        <div className="lesson-content">
+          <h2>Vertiefung der Kenntnisse</h2>
+          <p>Nachdem du die Grundlagen verstanden hast, geht es jetzt darum, dein Wissen zu vertiefen.</p>
+
+          <h2>Fortgeschrittene Themen</h2>
+          <ul>
+            <li>Objektorientierte Programmierung</li>
+            <li>Datenbanken</li>
+            <li>Netzwerke</li>
+            <li>Sicherheit</li>
+          </ul>
+
+          <h2>Praktische Übungen</h2>
+          <p>Du wirst anhand von praktischen Übungen dein Wissen festigen und anwenden können.</p>
+
+          <div className="lesson-navigation">
+            <a href="/lesson1" className="btn btn-back">◀️ Zurück zur vorherigen Lektion</a>
+            <a href="/lesson3" className="btn btn-next">▶️ Weiter zur nächsten Lektion</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</body>
+</html>

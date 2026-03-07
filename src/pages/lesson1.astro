@@ -1,0 +1,51 @@
+---
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
+---
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Grundlagen - Dao-Yu-101</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <Navbar />
+  
+  <main className="main-container">
+    <section className="lesson-section">
+      <div className="lesson-container">
+        <h1 className="lesson-title">Grundlagen</h1>
+        <div className="lesson-content">
+          <h2>Was ist Dao-Yu-101?</h2>
+          <p>Dao-Yu-101 ist eine Lernplattform, die dir die Grundlagen der digitalen Welt beibringt.</p>
+
+          <h2>Module</h2>
+          <ul>
+            <li>Grundlagen der Programmierung</li>
+            <li>Datenstrukturen</li>
+            <li>Algorithmen</li>
+            <li>Web-Entwicklung</li>
+          </ul>
+
+          <h2>Warum lernen?</h2>
+          <p>In der heutigen digitalen Welt ist es wichtig, die Grundlagen zu verstehen. Mit Dao-Yu-101 lernst du praxisnah und spielerisch.</p>
+
+          <div className="lesson-navigation">
+            <a href="/" className="btn btn-back">🏠 Zurück zur Startseite</a>
+            <a href="/lesson2" className="btn btn-next">▶️ Weiter zur nächsten Lektion</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</body>
+</html>
