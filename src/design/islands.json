@@ -1,0 +1,50 @@
+[
+  {
+    "id": "grundlagen",
+    "title": "Grundlagen",
+    "description": "Einführung in die Grundlagen",
+    "link": "/lesson1",
+    "color": "#228B22",
+    "icon": "📚"
+  },
+  {
+    "id": "theorie",
+    "title": "Theorie",
+    "description": "Vertiefung der Theorie",
+    "link": "/lesson2",
+    "color": "#1E90FF",
+    "icon": "📖"
+  },
+  {
+    "id": "praxis",
+    "title": "Praxis",
+    "description": "Praktische Anwendung",
+    "link": "/lesson3",
+    "color": "#F4E1B3",
+    "icon": "💻"
+  },
+  {
+    "id": "projekte",
+    "title": "Projekte",
+    "description": "Projektarbeit",
+    "link": "/projects",
+    "color": "#A0522D",
+    "icon": "🛠️"
+  },
+  {
+    "id": "zertifikat",
+    "title": "Zertifikat",
+    "description": "Abschlussprüfung",
+    "link": "/certificate",
+    "color": "#FFD700",
+    "icon": "🏅"
+  },
+  {
+    "id": "community",
+    "title": "Community",
+    "description": "Austausch mit anderen",
+    "link": "/community",
+    "color": "#FF69B4",
+    "icon": "👥"
+  }
+]

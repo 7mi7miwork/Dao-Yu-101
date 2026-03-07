@@ -1,0 +1,29 @@
+{
+  "breakpoints": {
+    "mobile": "768px",
+    "tablet": "1024px",
+    "desktop": "1200px"
+  },
+  "container": {
+    "maxWidth": "1200px",
+    "padding": {
+      "mobile": "1rem",
+      "desktop": "2rem"
+    }
+  },
+  "spacing": {
+    "section": "4rem",
+    "component": "2rem",
+    "element": "1rem"
+  },
+  "grid": {
+    "columns": {
+      "default": "repeat(auto-fit, minmax(250px, 1fr))",
+      "mobile": "repeat(auto-fit, minmax(200px, 1fr))"
+    },
+    "gap": {
+      "default": "2rem",
+      "mobile": "1rem"
+    }
+  }
+}

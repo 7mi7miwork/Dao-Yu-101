@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Dao-Yu-101",
+    "subtitle": "像探索岛屿一样学习",
+    "button": "开始学习"
+  },
+  "islandMap": {
+    "title": "知识群岛"
+  },
+  "learningPath": {
+    "title": "学习路径"
+  },
+  "islands": {
+    "grundlagen": {
+      "title": "基础",
+      "description": "基础知识入门"
+    },
+    "theorie": {
+      "title": "理论",
+      "description": "理论知识深化"
+    },
+    "praxis": {
+      "title": "实践",
+      "description": "实践应用"
+    },
+    "projekte": {
+      "title": "项目",
+      "description": "项目实践"
+    },
+    "zertifikat": {
+      "title": "证书",
+      "description": "结业考试"
+    },
+    "community": {
+      "title": "社区",
+      "description": "与他人交流"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Dao-Yu-101",
+    "subtitle": "Learn like exploring islands",
+    "button": "Start Learning"
+  },
+  "islandMap": {
+    "title": "Archipelago of Knowledge"
+  },
+  "learningPath": {
+    "title": "Learning Path"
+  },
+  "islands": {
+    "grundlagen": {
+      "title": "Fundamentals",
+      "description": "Introduction to the basics"
+    },
+    "theorie": {
+      "title": "Theory",
+      "description": "Deepening of theory"
+    },
+    "praxis": {
+      "title": "Practice",
+      "description": "Practical application"
+    },
+    "projekte": {
+      "title": "Projects",
+      "description": "Project work"
+    },
+    "zertifikat": {
+      "title": "Certificate",
+      "description": "Final exam"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Exchange with others"
+    }
+  }
+}
