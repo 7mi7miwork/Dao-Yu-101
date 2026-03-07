@@ -1,6 +1,6 @@
 import React from 'react';
 import IslandCard from './IslandCard.jsx';
-import islandsData from '../../design/islands.json';
+import islandsData from '../design/islands.json';
 
 export default function IslandMap() {
   return (
