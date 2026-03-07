@@ -1,11 +1,8 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
-import tailwind from '@astrojs/tailwind';
-import image from '@astrojs/image';
-import { vitePluginBuildManifest } from '@astrojs/env';
 
 export default defineConfig({
-  integrations: [react(), tailwind(), image(), vitePluginBuildManifest()],
+  integrations: [react()],
   vite: {
     build: {
       outDir: 'dist',
