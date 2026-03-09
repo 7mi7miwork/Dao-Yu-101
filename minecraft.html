@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft - Dao-Yu-101 Lernplattform</title>
+    <link rel="stylesheet" href="design/theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="water-ripple">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Dao-Yu-101</h1>
-                <p class="hero-mission">Ihre Reise zu persönlichem Wachstum und beruflicher Exzellenz beginnt hier</p>
-                <p class="hero-subtitle">Eine moderne Lernplattform, die Wissen zugänglich und Lernen inspirierend macht</p>
+            <div class="hero-content floating-island">
+                <h1 class="h1-island hero-title">Dao-Yu-101</h1>
+                <p class="text-island hero-mission">Ihre Reise zu persönlichem Wachstum und beruflicher Exzellenz beginnt hier</p>
+                <p class="text-muted hero-subtitle">Eine moderne Lernplattform, die Wissen zugänglich und Lernen inspirierend macht</p>
             </div>
-            <nav class="main-navigation">
+            <nav class="main-navigation nav-island">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html" class="nav-link">Startseite</a></li>
                     <li class="nav-item"><a href="lernbereiche.html" class="nav-link">Lernbereiche</a></li>
@@ -30,100 +31,134 @@
 
     <main>
         <div class="container">
-            <h1>Minecraft & MakeCode</h1>
-            <p class="section-intro">
-                Entdecken Sie die faszinierende Welt des Programmierens durch Minecraft Education – spielerisches Lernen meets reale Kompetenzen.
-            </p>
-            
-            <div class="minecraft-intro">
-                <article class="minecraft-overview">
-                    <div class="minecraft-icon">🎮</div>
-                    <h3>Programmieren lernen in Minecraft</h3>
-                    <p>
-                        Nutzen Sie die beliebte Minecraft-Umgebung, um grundlegende Programmierkonzepte zu entdecken. 
-                        Unsere didaktische Verbindung von spielerischem Lernen und ernsthafter Programmierausbildung 
-                        macht den Einstieg in die Welt des Codings motivierend und zugänglich.
-                    </p>
-                    <div class="target-audience">
-                        <h4>👥 Für wen ist das gedacht?</h4>
-                        <p>
-                            Perfekt für junge Lernende und Programmier-Einsteiger, die durch eine vertraute Gaming-Umgebung 
-                            erste Schritte im Programmieren wagen möchten. Keine Vorkenntnisse erforderlich – nur Neugier!
+            <section class="content-section island-style floating-island">
+                <h2 class="h2-island">Minecraft & MakeCode</h2>
+                <p class="text-island" style="text-align: center; font-size: var(--font-size-body); margin-bottom: var(--spacing-lg); max-width: 700px; margin-left: auto; margin-right: auto;">
+                    Entdecken Sie die faszinierende Welt des Programmierens durch Minecraft Education – spielerisches Lernen meets reale Kompetenzen.
+                </p>
+                
+                <article class="card-island island-style floating-island" style="animation-delay: 0s;">
+                    <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">🎮</div>
+                    <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Programmieren lernen in Minecraft</h3>
+                    <div class="lesson-content">
+                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">
+                            Nutzen Sie die beliebte Minecraft-Umgebung, um grundlegende Programmierkonzepte zu entdecken. 
+                            Unsere didaktische Verbindung von spielerischem Lernen und ernsthafter Programmierausbildung 
+                            macht den Einstieg in die Welt des Codings motivierend und zugänglich.
                         </p>
+                        <div class="example-box" style="background: rgba(90, 206, 74, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); margin-top: var(--spacing-sm); border-left: 3px solid var(--accent-green);">
+                            <h4 class="h4-island">👥 Für wen ist das gedacht?</h4>
+                            <p class="text-island" style="font-size: var(--font-size-small); line-height: 1.5; margin: 0;">
+                                Perfekt für junge Lernende und Programmier-Einsteiger, die durch eine vertraute Gaming-Umgebung 
+                                erste Schritte im Programmieren wagen möchten. Keine Vorkenntnisse erforderlich – nur Neugier!
+                            </p>
+                        </div>
                     </div>
                 </article>
-            </div>
+            </section>
 
-            <div class="learning-objectives">
-                <h3>🎯 Unsere Lernziele</h3>
-                <div class="objectives-grid">
-                    <div class="objective-item">
-                        <h4>Grundlagen verstehen</h4>
-                        <p>
+            <section class="content-section island-style floating-island">
+                <h3 class="h3-island">🎯 Unsere Lernziele</h3>
+                <div class="grid-island cols-2">
+                    <article class="card-island island-style floating-island" style="animation-delay: 0s;">
+                        <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">📚</div>
+                        <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Grundlagen verstehen</h3>
+                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md); text-align: center;">
                             Entdecken Sie grundlegende Programmierkonzepte wie Schleifen, Bedingungen und Variablen 
                             durch visuelle, blockbasierte Programmierung mit MakeCode.
                         </p>
-                    </div>
-                    <div class="objective-item">
-                        <h4>Kreativ Problemlösen</h4>
-                        <p>
+                    </article>
+                    
+                    <article class="card-island island-style floating-island" style="animation-delay: 0.2s;">
+                        <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">💡</div>
+                        <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Kreativ Problemlösen</h3>
+                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md); text-align: center;">
                             Entwickeln Sie kreative Lösungen für Herausforderungen in der Minecraft-Welt 
                             und wenden Sie algorithmisches Denken in praktischen Szenarien an.
                         </p>
-                    </div>
-                    <div class="objective-item">
-                        <h4>Transfer fördern</h4>
-                        <p>
+                    </article>
+                    
+                    <article class="card-island island-style floating-island" style="animation-delay: 0.4s;">
+                        <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">🌉</div>
+                        <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Transfer fördern</h3>
+                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md); text-align: center;">
                             Bauen Sie Brücken von visueller Programmierung zu textbasierten Sprachen wie Python 
                             und verstehen Sie die universellen Prinzipien des Programmierens.
                         </p>
-                    </div>
+                    </article>
                 </div>
-            </div>
+            </section>
 
-            <div class="makecode-introduction">
-                <article class="makecode-overview">
-                    <div class="makecode-icon">🔧</div>
-                    <h3>Was ist MakeCode?</h3>
-                    <p>
-                        MakeCode ist eine visuelle Programmierumgebung von Microsoft, die speziell für Bildungszwecke 
-                        entwickelt wurde. Mit drag-and-drop Programmierblöcken können komplexe Konzepte intuitiv 
-                        erfasst und sofort in Minecraft ausprobiert werden.
-                    </p>
-                    <div class="makecode-benefits">
-                        <h4>✨ Vorteile des blockbasierten Programmierens</h4>
-                        <ul>
-                            <li><strong>Niedrigschwelliger Einstieg:</strong> Keine Syntaxfehler, pure Konzentration auf Logik</li>
-                            <li><strong>Sofortiges Feedback:</strong> Code wird direkt in Minecraft sichtbar</li>
-                            <li><strong>Schrittweiser Fortschritt:</strong> Von einfachen Blöcken zu komplexen Algorithmen</li>
-                            <li><strong>Brücke zu Python:</strong> Gleiche Konzepte, andere Darstellung</li>
-                        </ul>
+            <section class="content-section island-style floating-island">
+                <h3 class="h3-island">Was ist MakeCode?</h3>
+                <article class="card-island island-style floating-island" style="animation-delay: 0s;">
+                    <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">🔧</div>
+                    <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Visuelle Programmierung</h3>
+                    <div class="lesson-content">
+                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">
+                            MakeCode ist eine visuelle Programmierumgebung von Microsoft, die speziell für Bildungszwecke 
+                            entwickelt wurde. Mit drag-and-drop Programmierblöcken können komplexe Konzepte intuitiv 
+                            erfasst und sofort in Minecraft ausprobiert werden.
+                        </p>
+                        <div class="example-box" style="background: rgba(244, 208, 61, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); margin-top: var(--spacing-sm); border-left: 3px solid var(--accent-gold);">
+                            <h4 class="h4-island">✨ Vorteile des blockbasierten Programmierens</h4>
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="padding: 0.3rem 0; color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">✓</span>
+                                    <strong>Niedrigschwelliger Einstieg:</strong> Keine Syntaxfehler, pure Konzentration auf Logik
+                                </li>
+                                <li style="padding: 0.3rem 0; color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">✓</span>
+                                    <strong>Sofortiges Feedback:</strong> Code wird direkt in Minecraft sichtbar
+                                </li>
+                                <li style="padding: 0.3rem 0; color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">✓</span>
+                                    <strong>Schrittweiser Fortschritt:</strong> Von einfachen Blöcken zu komplexen Algorithmen
+                                </li>
+                                <li style="padding: 0.3rem 0; color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">✓</span>
+                                    <strong>Brücke zu Python:</strong> Gleiche Konzepte, andere Darstellung
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </article>
-            </div>
+            </section>
 
-            <div class="minecraft-didactic-note">
-                <h3>🎓 Didaktischer Hintergrund</h3>
-                <p>
-                    Dieser Ansatz verbindet <strong>konstruktivistisches Lernen</strong> (durch aktives Gestalten 
-                    in Minecraft) mit <strong>situiertem Lernen</strong> (Programmierkonzepte im meaningful context). 
-                    Die spielerische Motivation der Minecraft-Umgebung schafft ideale Bedingungen für 
-                    nachhaltiges Lernen und natürliche Neugier auf technische Themen.
-                </p>
-                <p>
-                    Durch die schrittweise Progression von visuellen Blöcken zu textbasiertem Code 
-                    bauen wir <strong>kognitive Scaffolds</strong>, die den Übergang zu fortgeschritteneren 
-                    Programmiersprachen erleichtern.
-                </p>
-            </div>
+            <section class="content-section island-style floating-island">
+                <h3 class="h3-island">🎓 Didaktischer Hintergrund</h3>
+                <article class="card-island island-style floating-island" style="animation-delay: 0s;">
+                    <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">
+                        Dieser Ansatz verbindet <strong>konstruktivistisches Lernen</strong> (durch aktives Gestalten 
+                        in Minecraft) mit <strong>situiertem Lernen</strong> (Programmierkonzepte im meaningful context). 
+                        Die spielerische Motivation der Minecraft-Umgebung schafft ideale Bedingungen für 
+                        nachhaltiges Lernen und natürliche Neugier auf technische Themen.
+                    </p>
+                    <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">
+                        Durch die schrittweise Progression von visuellen Blöcken zu textbasiertem Code 
+                        bauen wir <strong>kognitive Scaffolds</strong>, die den Übergang zu fortgeschritteneren 
+                        Programmiersprachen erleichtern.
+                    </p>
+                </article>
+            </section>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Dao-Yu-101 Lernplattform. Alle Rechte vorbehalten.</p>
+            <p class="text-muted">&copy; 2026 Dao-Yu-101 Lernplattform. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
-    </body>
+    <script>
+        // Floating animation for islands
+        document.addEventListener('DOMContentLoaded', function() {
+            const islands = document.querySelectorAll('.floating-island');
+            islands.forEach((island, index) => {
+                island.style.animation = `float 6s ease-in-out infinite`;
+                island.style.animationDelay = `${index * 0.2}s`;
+            });
+        });
+    </script>
+</body>
 </html>

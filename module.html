@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module - Dao-Yu-101 Lernplattform</title>
+    <link rel="stylesheet" href="design/theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="water-ripple">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Dao-Yu-101</h1>
-                <p class="hero-mission">Ihre Reise zu persönlichem Wachstum und beruflicher Exzellenz beginnt hier</p>
-                <p class="hero-subtitle">Eine moderne Lernplattform, die Wissen zugänglich und Lernen inspirierend macht</p>
+            <div class="hero-content floating-island">
+                <h1 class="h1-island hero-title">Dao-Yu-101</h1>
+                <p class="text-island hero-mission">Ihre Reise zu persönlichem Wachstum und beruflicher Exzellenz beginnt hier</p>
+                <p class="text-muted hero-subtitle">Eine moderne Lernplattform, die Wissen zugänglich und Lernen inspirierend macht</p>
             </div>
-            <nav class="main-navigation">
+            <nav class="main-navigation nav-island">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html" class="nav-link">Startseite</a></li>
                     <li class="nav-item"><a href="lernbereiche.html" class="nav-link">Lernbereiche</a></li>
@@ -30,73 +31,97 @@
 
     <main>
         <div class="container">
-            <h1>Module</h1>
-            <p class="section-intro">
-                Entdecken Sie die Struktur unserer Lernmodule – ein durchdachter Aufbau für optimales Lernen.
-            </p>
-            
-            <!-- Beispiel-Modul Template -->
-            <article class="module-template">
-                <header class="module-header">
-                    <h3 class="module-title">Beispiel: Einführung in das Zeitmanagement</h3>
-                    <div class="module-meta">
-                        <span class="module-duration">45 Minuten</span>
-                        <span class="module-level">Anfänger</span>
-                    </div>
-                </header>
+            <section class="content-section island-style floating-island">
+                <h2 class="h2-island">Module</h2>
+                <p class="text-island" style="text-align: center; font-size: var(--font-size-body); margin-bottom: var(--spacing-lg); max-width: 700px; margin-left: auto; margin-right: auto;">
+                    Entdecken Sie die Struktur unserer Lernmodule – ein durchdachter Aufbau für optimales Lernen.
+                </p>
                 
-                <section class="module-objective">
-                    <h4>🎯 Lernziel</h4>
-                    <p>
-                        Nach Abschluss dieses Moduls können Sie Ihre Zeit effektiv planen, Prioritäten setzen 
-                        und produktiver arbeiten. Sie lernen bewährte Methoden zur Organisation Ihres Arbeitsalltags kennen.
-                    </p>
-                </section>
-                
-                <section class="module-content">
-                    <h4>📚 Inhalt</h4>
-                    <div class="content-placeholder">
-                        <p>
-                            Hier finden Sie die didaktisch aufbereiteten Lerninhalte zum Thema Zeitmanagement. 
-                            Die Inhalte werden klar strukturiert mit Beispielen, Fallstudien und praktischen Tipps präsentiert.
+                <!-- Beispiel-Modul Template -->
+                <article class="card-island island-style floating-island" style="animation-delay: 0s;">
+                    <header style="text-align: center; margin-bottom: var(--spacing-md); padding-bottom: var(--spacing-sm); border-bottom: 2px solid rgba(0, 0, 0, 0.05);">
+                        <h3 class="h3-island" style="margin-bottom: var(--spacing-sm);">Beispiel: Einführung in das Zeitmanagement</h3>
+                        <div style="display: flex; justify-content: center; gap: var(--spacing-sm); flex-wrap: wrap;">
+                            <span class="badge-island badge-primary">45 Minuten</span>
+                            <span class="badge-island badge-secondary">Anfänger</span>
+                        </div>
+                    </header>
+                    
+                    <section style="margin-bottom: var(--spacing-md);">
+                        <h4 class="h4-island">🎯 Lernziel</h4>
+                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-sm);">
+                            Nach Abschluss dieses Moduls können Sie Ihre Zeit effektiv planen, Prioritäten setzen 
+                            und produktiver arbeiten. Sie lernen bewährte Methoden zur Organisation Ihres Arbeitsalltags kennen.
                         </p>
-                        <ul class="content-topics">
-                            <li>Grundlagen des Zeitmanagements</li>
-                            <li>Methoden zur Priorisierung</li>
-                            <li>Tools und Techniken</li>
-                            <li>Praktische Anwendung im Alltag</li>
-                        </ul>
-                    </div>
-                </section>
-                
-                <section class="module-exercise">
-                    <h4>✏️ Aufgabe</h4>
-                    <div class="exercise-placeholder">
-                        <p>
-                            Erstellen Sie Ihren persönlichen Wochenplan unter Anwendung der erlernten Methoden. 
-                            Analysieren Sie Ihre aktuellen Zeitfresser und entwickeln Sie Strategien zur Optimierung. 
-                            Dokumentieren Sie Ihre Ergebnisse und reflektieren Sie die Umsetzung nach einer Woche.
-                        </p>
-                    </div>
-                </section>
-            </article>
+                    </section>
+                    
+                    <section style="margin-bottom: var(--spacing-md);">
+                        <h4 class="h4-island">📚 Inhalt</h4>
+                        <div style="background: rgba(90, 206, 74, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); border-left: 3px solid var(--accent-green);">
+                            <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-sm);">
+                                Hier finden Sie die didaktisch aufbereiteten Lerninhalte zum Thema Zeitmanagement. 
+                                Die Inhalte werden klar strukturiert mit Beispielen, Fallstudien und praktischen Tipps präsentiert.
+                            </p>
+                            <ul style="list-style: none; padding: 0; margin: var(--spacing-sm) 0;">
+                                <li style="padding: 0.5rem 0; border-bottom: 1px solid rgba(0, 0, 0, 0.05); color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">▸</span>
+                                    Grundlagen des Zeitmanagements
+                                </li>
+                                <li style="padding: 0.5rem 0; border-bottom: 1px solid rgba(0, 0, 0, 0.05); color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">▸</span>
+                                    Methoden zur Priorisierung
+                                </li>
+                                <li style="padding: 0.5rem 0; border-bottom: 1px solid rgba(0, 0, 0, 0.05); color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">▸</span>
+                                    Tools und Techniken
+                                </li>
+                                <li style="padding: 0.5rem 0; border-bottom: none; color: var(--text-secondary); position: relative; padding-left: 1.5rem; font-size: var(--font-size-small); line-height: 1.5;">
+                                    <span style="position: absolute; left: 0; color: var(--accent-green); font-weight: bold;">▸</span>
+                                    Praktische Anwendung im Alltag
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <h4 class="h4-island">✏️ Aufgabe</h4>
+                        <div style="background: rgba(52, 152, 219, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); border-left: 3px solid var(--accent-blue);">
+                            <p class="text-island" style="line-height: 1.6; margin: 0;">
+                                Erstellen Sie Ihren persönlichen Wochenplan unter Anwendung der erlernten Methoden. 
+                                Analysieren Sie Ihre aktuellen Zeitfresser und entwickeln Sie Strategien zur Optimierung. 
+                                Dokumentieren Sie Ihre Ergebnisse und reflektieren Sie die Umsetzung nach einer Woche.
+                            </p>
+                        </div>
+                    </section>
+                </article>
+            </section>
             
-            <div class="template-explanation">
-                <h3>Didaktischer Aufbau</h3>
-                <p>
+            <section class="content-section island-style floating-island">
+                <h3 class="h3-island">Didaktischer Aufbau</h3>
+                <p class="text-island">
                     Jedes Lernmodul folgt dieser bewährten Struktur: Ein klares Lernziel zeigt Ihnen, 
                     was Sie erreichen können. Der Inhalt vermittelt das notwendige Wissen verständlich und praxisnah. 
                     Die Aufgabe ermöglicht Ihnen die direkte Anwendung des Gelernten.
                 </p>
-            </div>
+            </section>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Dao-Yu-101 Lernplattform. Alle Rechte vorbehalten.</p>
+            <p class="text-muted">&copy; 2026 Dao-Yu-101 Lernplattform. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
-    </body>
+    <script>
+        // Floating animation for islands
+        document.addEventListener('DOMContentLoaded', function() {
+            const islands = document.querySelectorAll('.floating-island');
+            islands.forEach((island, index) => {
+                island.style.animation = `float 6s ease-in-out infinite`;
+                island.style.animationDelay = `${index * 0.2}s`;
+            });
+        });
+    </script>
+</body>
 </html>

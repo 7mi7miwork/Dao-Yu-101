@@ -1,0 +1,100 @@
+/* Dao-Yu-101 Archipelago Design System - Variables */
+:root {
+    /* Ocean & Water Colors */
+    --ocean-primary: #004444;
+    --ocean-secondary: #006666;
+    --ocean-deep: #003333;
+    --ocean-foam: #e8f4f4;
+    --ocean-gradient: linear-gradient(135deg, #004444 0%, #006666 100%);
+    
+    /* Island & Terrain Colors */
+    --island-grass: #5ACE4A;
+    --island-dirt: #8B5A2B;
+    --island-sand: #F4D03F;
+    --island-stone: #95A5A6;
+    --island-wood: #6B4F2E;
+    
+    /* Accent & UI Colors */
+    --accent-green: #5ACE4A;
+    --accent-gold: #F4D03F;
+    --accent-brown: #8B5A2B;
+    --accent-blue: #3498DB;
+    --accent-red: #E74C3C;
+    
+    /* Text Colors */
+    --text-primary: #2C3E50;
+    --text-secondary: #34495E;
+    --text-muted: #7F8C8D;
+    --text-light: #ECF0F1;
+    
+    /* Background Colors */
+    --bg-ocean: #004444;
+    --bg-island: #F8F9FA;
+    --bg-sky: linear-gradient(180deg, #E8F4F4 0%, #FFFFFF 100%);
+    --bg-card: #FFFFFF;
+    
+    /* Spacing System */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-xxl: 4rem;
+    
+    /* Typography Scale */
+    --font-size-h1: 3.5rem;
+    --font-size-h2: 2.5rem;
+    --font-size-h3: 1.8rem;
+    --font-size-h4: 1.4rem;
+    --font-size-body: 1.1rem;
+    --font-size-small: 0.95rem;
+    --font-size-xs: 0.85rem;
+    
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-full: 50px;
+    --radius-island: 24px;
+    
+    /* Shadows */
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.2);
+    --shadow-island: 0 12px 24px rgba(0, 0, 0, 0.25);
+    --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.3);
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.4s ease;
+    --transition-float: 3s ease-in-out;
+    
+    /* Minecraft/Voxel Elements */
+    --voxel-size: 16px;
+    --voxel-border: 2px;
+    --voxel-color: #5ACE4A;
+    --voxel-shadow: 0 4px 0 #3d9b3d;
+    
+    /* Floating Animation */
+    --float-height: 10px;
+    --float-duration: 6s;
+}
+
+/* Dark theme overrides */
+[data-theme="dark"] {
+    --bg-ocean: #0d1117;
+    --bg-island: #161b22;
+    --bg-card: #21262d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #c9d1d9;
+    --text-muted: #8b949e;
+    --ocean-primary: #1f6feb;
+    --ocean-secondary: #3386ff;
+    --accent-green: #2ea043;
+    --accent-gold: #d29922;
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.6);
+}

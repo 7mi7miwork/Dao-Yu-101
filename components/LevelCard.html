@@ -1,0 +1,20 @@
+<article class="level-card level-{{levelNumber}} island-style floating-island" style="animation-delay: {{delay}}s;">
+    <div class="level-header" style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-md); padding-bottom: var(--spacing-sm); border-bottom: 2px solid rgba(0, 0, 0, 0.05);">
+        <div class="level-number" style="width: 50px; height: 50px; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; color: white; flex-shrink: 0; background: linear-gradient(135deg, var(--accent-green), var(--accent-gold));">
+            {{levelNumber}}
+        </div>
+        <h3 class="h3-island" style="margin: 0;">{{title}}</h3>
+    </div>
+    <div class="level-content">
+        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">{{description}}</p>
+        <div class="level-objective" style="background: rgba(90, 206, 74, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); border-left: 3px solid var(--accent-green);">
+            <h4 class="h4-island" style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">🎯 {{objective.title}}</h4>
+            <p class="text-island" style="font-size: var(--font-size-small); line-height: 1.5; margin: 0;">{{objective.text}}</p>
+        </div>
+    </div>
+    {{#if status}}
+    <div class="level-status" style="text-align: center; margin-top: auto;">
+        <span class="badge-island {{status.class}}">{{status.text}}</span>
+    </div>
+    {{/if}}
+</article>

@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lernpfade - Dao-Yu-101 Lernplattform</title>
+    <link rel="stylesheet" href="design/theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="water-ripple">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Dao-Yu-101</h1>
-                <p class="hero-mission">Ihre Reise zu persönlichem Wachstum und beruflicher Exzellenz beginnt hier</p>
-                <p class="hero-subtitle">Eine moderne Lernplattform, die Wissen zugänglich und Lernen inspirierend macht</p>
+            <div class="hero-content floating-island">
+                <h1 class="h1-island hero-title">Dao-Yu-101</h1>
+                <p class="text-island hero-mission">Ihre Reise zu persönlichem Wachstum und beruflicher Exzellenz beginnt hier</p>
+                <p class="text-muted hero-subtitle">Eine moderne Lernplattform, die Wissen zugänglich und Lernen inspirierend macht</p>
             </div>
-            <nav class="main-navigation">
+            <nav class="main-navigation nav-island">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html" class="nav-link">Startseite</a></li>
                     <li class="nav-item"><a href="lernbereiche.html" class="nav-link">Lernbereiche</a></li>
@@ -30,102 +31,119 @@
 
     <main>
         <div class="container">
-            <h1>Lernpfade</h1>
-            <p class="section-intro">
-                Entdecken Sie Ihre persönliche Lernreise – strukturiert in drei klar definierten Leveln für optimalen Fortschritt.
-            </p>
+            <section class="content-section island-style floating-island">
+                <h2 class="h2-island">Lernpfade</h2>
+                <p class="text-island" style="text-align: center; font-size: var(--font-size-body); margin-bottom: var(--spacing-lg); max-width: 700px; margin-left: auto; margin-right: auto;">
+                    Entdecken Sie Ihre persönliche Lernreise – strukturiert in drei klar definierten Leveln für optimalen Fortschritt.
+                </p>
+                <div class="progress-path-container" style="display: flex; flex-direction: column; gap: var(--spacing-lg); margin-top: var(--spacing-lg);">
+                    <article class="level-card level-1 island-style floating-island" style="animation-delay: 0s;">
+                        <div class="level-header" style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-md); padding-bottom: var(--spacing-sm); border-bottom: 2px solid rgba(0, 0, 0, 0.05);">
+                            <div class="level-number" style="width: 50px; height: 50px; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; color: white; flex-shrink: 0; background: linear-gradient(135deg, var(--accent-green), var(--accent-gold));">
+                                1
+                            </div>
+                            <h3 class="h3-island" style="margin: 0;">Level 1 – Einstieg</h3>
+                        </div>
+                        <div class="level-content">
+                            <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">
+                                Grundlegende Konzepte und erste Schritte in Ihrem Lernbereich. 
+                                Hier legen Sie das Fundament für alle weiteren Themen und entwickeln 
+                                ein solides Basisverständnis.
+                            </p>
+                            <div class="level-objective" style="background: rgba(90, 206, 74, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); border-left: 3px solid var(--accent-green);">
+                                <h4 class="h4-island" style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">🎯 Lernziel</h4>
+                                <p class="text-island" style="font-size: var(--font-size-small); line-height: 1.5; margin: 0;">
+                                    Solide Basis für weiterführende Themen schaffen und grundlegende 
+                                    Konzepte sicher beherrschen.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="level-status" style="text-align: center; margin-top: auto;">
+                            <span class="badge-island">In Vorbereitung</span>
+                        </div>
+                    </article>
+                    
+                    <article class="level-card level-2 island-style floating-island" style="animation-delay: 0.3s;">
+                        <div class="level-header" style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-md); padding-bottom: var(--spacing-sm); border-bottom: 2px solid rgba(0, 0, 0, 0.05);">
+                            <div class="level-number" style="width: 50px; height: 50px; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; color: white; flex-shrink: 0; background: linear-gradient(135deg, var(--accent-gold), var(--accent-brown));">
+                                2
+                            </div>
+                            <h3 class="h3-island" style="margin: 0;">Level 2 – Aufbau</h3>
+                        </div>
+                        <div class="level-content">
+                            <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">
+                                Vertiefung und praktische Anwendung des Gelernten. 
+                                Sie erweitern Ihre Kompetenzen und wenden das Wissen 
+                                in realen Situationen an.
+                            </p>
+                            <div class="level-objective" style="background: rgba(244, 208, 61, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); border-left: 3px solid var(--accent-gold);">
+                                <h4 class="h4-island" style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">🎯 Lernziel</h4>
+                                <p class="text-island" style="font-size: var(--font-size-small); line-height: 1.5; margin: 0;">
+                                    Kompetenzen erweitern und in praktischen Projekten 
+                                    erfolgreich anwenden.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="level-status" style="text-align: center; margin-top: auto;">
+                            <span class="badge-island">In Vorbereitung</span>
+                        </div>
+                    </article>
+                    
+                    <article class="level-card level-3 island-style floating-island" style="animation-delay: 0.6s;">
+                        <div class="level-header" style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-md); padding-bottom: var(--spacing-sm); border-bottom: 2px solid rgba(0, 0, 0, 0.05);">
+                            <div class="level-number" style="width: 50px; height: 50px; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; color: white; flex-shrink: 0; background: linear-gradient(135deg, var(--accent-blue), var(--accent-red));">
+                                3
+                            </div>
+                            <h3 class="h3-island" style="margin: 0;">Level 3 – Vertiefung</h3>
+                        </div>
+                        <div class="level-content">
+                            <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md);">
+                                Expertise und Transfer in neue Kontexte. 
+                                Sie entwickeln Meisterschaft in Ihrem Bereich und 
+                                können komplexe Probleme selbstständig lösen.
+                            </p>
+                            <div class="level-objective" style="background: rgba(52, 152, 219, 0.1); border-radius: var(--radius-md); padding: var(--spacing-sm); border-left: 3px solid var(--accent-blue);">
+                                <h4 class="h4-island" style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">🎯 Lernziel</h4>
+                                <p class="text-island" style="font-size: var(--font-size-small); line-height: 1.5; margin: 0;">
+                                    Meisterschaft erreichen und selbstständig komplexe 
+                                    Herausforderungen bewältigen.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="level-status" style="text-align: center; margin-top: auto;">
+                            <span class="badge-island">In Vorbereitung</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
             
-            <div class="learning-paths-container">
-                <article class="level-card level-1">
-                    <div class="level-header">
-                        <div class="level-number">1</div>
-                        <h3>Level 1 – Einstieg</h3>
-                    </div>
-                    <div class="level-content">
-                        <p class="level-description">
-                            Grundlegende Konzepte und erste Schritte in Ihrem Lernbereich. 
-                            Hier legen Sie das Fundament für alle weiteren Themen und entwickeln 
-                            ein solides Basisverständnis.
-                        </p>
-                        <div class="level-objective">
-                            <h4>🎯 Lernziel</h4>
-                            <p>
-                                Solide Basis für weiterführende Themen schaffen und grundlegende 
-                                Konzepte sicher beherrschen.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="level-status">
-                        <span class="status-badge placeholder">In Vorbereitung</span>
-                    </div>
-                </article>
-                
-                <article class="level-card level-2">
-                    <div class="level-header">
-                        <div class="level-number">2</div>
-                        <h3>Level 2 – Aufbau</h3>
-                    </div>
-                    <div class="level-content">
-                        <p class="level-description">
-                            Vertiefung und praktische Anwendung des Gelernten. 
-                            Sie erweitern Ihre Kompetenzen und wenden das Wissen 
-                            in realen Situationen an.
-                        </p>
-                        <div class="level-objective">
-                            <h4>🎯 Lernziel</h4>
-                            <p>
-                                Kompetenzen erweitern und in praktischen Projekten 
-                                erfolgreich anwenden.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="level-status">
-                        <span class="status-badge placeholder">In Vorbereitung</span>
-                    </div>
-                </article>
-                
-                <article class="level-card level-3">
-                    <div class="level-header">
-                        <div class="level-number">3</div>
-                        <h3>Level 3 – Vertiefung</h3>
-                    </div>
-                    <div class="level-content">
-                        <p class="level-description">
-                            Expertise und Transfer in neue Kontexte. 
-                            Sie entwickeln Meisterschaft in Ihrem Bereich und 
-                            können komplexe Probleme selbstständig lösen.
-                        </p>
-                        <div class="level-objective">
-                            <h4>🎯 Lernziel</h4>
-                            <p>
-                                Meisterschaft erreichen und selbstständig komplexe 
-                                Herausforderungen bewältigen.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="level-status">
-                        <span class="status-badge placeholder">In Vorbereitung</span>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="learning-paths-explanation">
-                <h3>Ihre Lernprogression</h3>
-                <p>
+            <section class="content-section island-style floating-island">
+                <h3 class="h3-island">Ihre Lernprogression</h3>
+                <p class="text-island">
                     Jedes Level baut logisch auf dem vorherigen auf und führt Sie Schritt für Schritt 
                     vom Anfänger zum Experten. <strong>Level 1</strong> schafft die Grundlage, 
                     <strong>Level 2</strong> vertieft und wendet an, <strong>Level 3</strong> 
                     entwickelt Meisterschaft und Selbstständigkeit.
                 </p>
-            </div>
+            </section>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Dao-Yu-101 Lernplattform. Alle Rechte vorbehalten.</p>
+            <p class="text-muted">&copy; 2026 Dao-Yu-101 Lernplattform. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
-    </body>
+    <script>
+        // Floating animation for islands
+        document.addEventListener('DOMContentLoaded', function() {
+            const islands = document.querySelectorAll('.floating-island');
+            islands.forEach((island, index) => {
+                island.style.animation = `float 6s ease-in-out infinite`;
+                island.style.animationDelay = `${index * 0.3}s`;
+            });
+        });
+    </script>
+</body>
 </html>

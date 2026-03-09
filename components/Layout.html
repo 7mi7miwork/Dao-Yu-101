@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - Dao-Yu-101</title>
+    <link rel="stylesheet" href="../design/theme.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="water-ripple">
+        <div class="container">
+            <div class="hero-content floating-island">
+                <h1 class="h1-island hero-title">Dao-Yu-101</h1>
+                <p class="text-island hero-mission">Ihre Reise zu persönlichem Wachstum und beruflicher Exzellenz beginnt hier</p>
+                <p class="text-muted hero-subtitle">Eine moderne Lernplattform, die Wissen zugänglich und Lernen inspirierend macht</p>
+            </div>
+            <nav class="main-navigation nav-island">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html" class="nav-link {{#if activePage.home}}active{{/if}}">Startseite</a></li>
+                    <li class="nav-item"><a href="../lernbereiche.html" class="nav-link {{#if activePage.lernbereiche}}active{{/if}}">Lernbereiche</a></li>
+                    <li class="nav-item"><a href="../lernpfade.html" class="nav-link {{#if activePage.lernpfade}}active{{/if}}">Lernpfade</a></li>
+                    <li class="nav-item"><a href="../module.html" class="nav-link {{#if activePage.module}}active{{/if}}">Module</a></li>
+                    <li class="nav-item"><a href="../uebungen.html" class="nav-link {{#if activePage.uebungen}}active{{/if}}">Übungen</a></li>
+                    <li class="nav-item"><a href="../rollen.html" class="nav-link {{#if activePage.rollen}}active{{/if}}">Rollen</a></li>
+                    <li class="nav-item"><a href="../minecraft.html" class="nav-link {{#if activePage.minecraft}}active{{/if}}">Minecraft</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            {{{content}}}
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="text-muted">&copy; 2026 Dao-Yu-101 Lernplattform. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
