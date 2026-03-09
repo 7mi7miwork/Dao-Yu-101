@@ -1,37 +1,56 @@
-/* Dao-Yu-101 Archipelago Design System - Variables */
+/* Dao-Yu-101 Minecraft Island Design System - Variables */
 :root {
-    /* Ocean & Water Colors */
-    --ocean-primary: #004444;
-    --ocean-secondary: #006666;
-    --ocean-deep: #003333;
-    --ocean-foam: #e8f4f4;
-    --ocean-gradient: linear-gradient(135deg, #004444 0%, #006666 100%);
+    /* Minecraft Color Palette */
+    --mc-grass: #5ACE4A;
+    --mc-dirt: #8B5A2B;
+    --mc-sand: #F4D03F;
+    --mc-stone: #95A5A6;
+    --mc-wood: #6B4F2E;
+    --mc-water: #3498DB;
+    --mc-sky: #87CEEB;
+    --mc-cloud: #FFFFFF;
+    --mc-obsidian: #2C3E50;
+    --mc-gold: #F1C40F;
+    --mc-redstone: #E74C3C;
+    --mc-emerald: #2ECC71;
+    --mc-lapis: #3498DB;
     
-    /* Island & Terrain Colors */
-    --island-grass: #5ACE4A;
-    --island-dirt: #8B5A2B;
-    --island-sand: #F4D03F;
-    --island-stone: #95A5A6;
-    --island-wood: #6B4F2E;
+    /* Voxel & Block Colors */
+    --voxel-grass-top: #5ACE4A;
+    --voxel-grass-side: #4a9f3a;
+    --voxel-dirt-top: #8B5A2B;
+    --voxel-dirt-side: #6b4f2e;
+    --voxel-sand-top: #F4D03F;
+    --voxel-sand-side: #e5c434;
+    --voxel-stone-top: #95A5A6;
+    --voxel-stone-side: #7f8c8d;
+    --voxel-wood-top: #6B4F2E;
+    --voxel-wood-side: #5d4037;
     
-    /* Accent & UI Colors */
-    --accent-green: #5ACE4A;
-    --accent-gold: #F4D03F;
-    --accent-brown: #8B5A2B;
-    --accent-blue: #3498DB;
-    --accent-red: #E74C3C;
+    /* UI & Button Colors */
+    --ui-wood-plank: #8B5A2B;
+    --ui-wood-dark: #6B4F2E;
+    --ui-stone-button: #95A5A6;
+    --ui-stone-dark: #7f8c8d;
+    --ui-sign-text: #2C3E50;
+    --ui-sign-border: #5d4037;
     
     /* Text Colors */
     --text-primary: #2C3E50;
     --text-secondary: #34495E;
     --text-muted: #7F8C8D;
     --text-light: #ECF0F1;
+    --text-wood: #3E2723;
+    --text-stone: #455A64;
     
     /* Background Colors */
-    --bg-ocean: #004444;
+    --bg-sky: linear-gradient(180deg, #87CEEB 0%, #E8F4F4 100%);
+    --bg-ocean: linear-gradient(180deg, #004444 0%, #006666 100%);
     --bg-island: #F8F9FA;
-    --bg-sky: linear-gradient(180deg, #E8F4F4 0%, #FFFFFF 100%);
     --bg-card: #FFFFFF;
+    --bg-water: #3498DB;
+    --bg-sand: #F4D03F;
+    --bg-grass: #5ACE4A;
     
     /* Spacing System */
     --spacing-xs: 0.5rem;
@@ -57,6 +76,7 @@
     --radius-xl: 20px;
     --radius-full: 50px;
     --radius-island: 24px;
+    --radius-voxel: 4px;
     
     /* Shadows */
     --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -64,6 +84,8 @@
     --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.2);
     --shadow-island: 0 12px 24px rgba(0, 0, 0, 0.25);
     --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.3);
+    --voxel-shadow: 0 4px 0 #3d9b3d;
+    --voxel-shadow-hover: 0 6px 0 #3d9b3d;
     
     /* Transitions */
     --transition-fast: 0.2s ease;
@@ -80,20 +102,30 @@
     /* Floating Animation */
     --float-height: 10px;
     --float-duration: 6s;
+    
+    /* Pixel & Block Patterns */
+    --pixel-size: 8px;
+    --block-size: 16px;
+    --voxel-depth: 4px;
 }
 
 /* Dark theme overrides */
 [data-theme="dark"] {
-    --bg-ocean: #0d1117;
-    --bg-island: #161b22;
-    --bg-card: #21262d;
-    --text-primary: #f0f6fc;
-    --text-secondary: #c9d1d9;
-    --text-muted: #8b949e;
-    --ocean-primary: #1f6feb;
-    --ocean-secondary: #3386ff;
-    --accent-green: #2ea043;
-    --accent-gold: #d29922;
+    --bg-sky: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+    --bg-ocean: linear-gradient(180deg, #0f3460 0%, #1a1a2e 100%);
+    --bg-island: #0f172a;
+    --bg-card: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #e2e8f0;
+    --text-muted: #94a3b8;
+    --text-wood: #f59e0b;
+    --text-stone: #94a3b8;
+    --mc-grass: #22c55e;
+    --mc-dirt: #a16207;
+    --mc-sand: #f59e0b;
+    --mc-stone: #64748b;
+    --mc-water: #3b82f6;
+    --mc-sky: #1e3a8a;
     --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.4);
     --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
     --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.6);
