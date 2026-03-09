@@ -375,6 +375,147 @@ body::before {
     grid-template-columns: repeat(4, 1fr);
 }
 
+/* Archipelago Section Styles */
+.archipelago-section {
+    background: linear-gradient(180deg, var(--ocean-primary) 0%, var(--ocean-secondary) 100%);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.archipelago-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+    position: relative;
+}
+
+.connection-path {
+    position: absolute;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    z-index: 1;
+}
+
+.connection-path[style*="top"] {
+    height: 2px;
+}
+
+.connection-path[style*="left"] {
+    width: 2px;
+    height: 60%;
+    background: linear-gradient(180deg, transparent, rgba(255,255,255,0.3), transparent);
+}
+
+.floating-island-card {
+    position: relative;
+    z-index: 2;
+    animation: float 4s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.floating-island-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.island-terrain {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.island-terrain:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0,0,0,0.4);
+}
+
+.island-content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+.island-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.floating-island-card:hover .island-icon {
+    transform: scale(1.1);
+}
+
+.floating-clouds {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.floating-clouds div {
+    position: absolute;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+    animation: sway 8s ease-in-out infinite;
+}
+
+.floating-clouds div:nth-child(2) {
+    animation: sway 10s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+/* Responsive Archipelago */
+@media (max-width: 1024px) {
+    .archipelago-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .connection-path {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .archipelago-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .archipelago-section {
+        padding: var(--spacing-lg);
+    }
+    
+    .h2-island {
+        font-size: 1.8rem;
+    }
+    
+    .island-icon {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .archipelago-section {
+        padding: var(--spacing-md);
+    }
+    
+    .h2-island {
+        font-size: 1.5rem;
+    }
+    
+    .island-icon {
+        font-size: 2rem;
+    }
+    
+    .island-terrain {
+        padding: var(--spacing-md);
+    }
+}
+
 /* Responsive Grid */
 @media (max-width: 1024px) {
     .grid-island.cols-4 {

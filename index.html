@@ -42,32 +42,81 @@
                 </p>
             </section>
 
-            <section class="content-section island-style floating-island">
-                <h2 class="h2-island">Was dich hier erwartet</h2>
-                <div class="grid-island cols-2">
-                    <article class="card-island island-style floating-island" style="animation-delay: 0s;">
-                        <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">📚</div>
-                        <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Hochwertige Lerninhalte</h3>
-                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md); text-align: center;">Sorgfältig kuratierte Kurse und Materialien, die von Experten entwickelt wurden und praxisnahe Anwendungsmöglichkeiten bieten.</p>
-                    </article>
+            <section class="content-section archipelago-section" style="background: linear-gradient(180deg, #004444 0%, #006666 100%); border-radius: var(--radius-xl); padding: var(--spacing-xl); box-shadow: var(--shadow-lg); position: relative; overflow: hidden;">
+                <div class="ocean-waves" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: 
+                    radial-gradient(circle at 20% 20%, rgba(90, 206, 74, 0.1) 0%, transparent 50%),
+                    radial-gradient(circle at 80% 40%, rgba(244, 208, 61, 0.1) 0%, transparent 50%),
+                    radial-gradient(circle at 40% 80%, rgba(52, 152, 219, 0.1) 0%, transparent 50%);
+                    pointer-events: none; z-index: 1;"></div>
+                
+                <div class="container" style="position: relative; z-index: 2;">
+                    <h2 class="h2-island" style="color: white; text-align: center; margin-bottom: var(--spacing-lg);">Entdecken Sie den Lern-Archipel</h2>
+                    <p class="text-island" style="color: #e8f4f4; text-align: center; font-size: var(--font-size-body); margin-bottom: var(--spacing-xl); max-width: 800px; margin-left: auto; margin-right: auto;">
+                        Tauchen Sie ein in unsere Welt aus schwimmenden Inseln des Wissens. Jede Insel repräsentiert ein Lernthema und lädt zur Entdeckung ein.
+                    </p>
                     
-                    <article class="card-island island-style floating-island" style="animation-delay: 0.2s;">
-                        <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">🎯</div>
-                        <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Personalisierte Lernpfade</h3>
-                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md); text-align: center;">Lernen Sie in Ihrem eigenen Tempo mit Inhalten, die genau auf Ihre Ziele und Vorkenntnisse zugeschnitten sind.</p>
-                    </article>
+                    <div class="archipelago-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--spacing-lg); position: relative;">
+                        <!-- Connecting paths between islands -->
+                        <div class="connection-path" style="position: absolute; top: 50%; left: 15%; width: 70%; height: 2px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); z-index: 1;"></div>
+                        <div class="connection-path" style="position: absolute; top: 20%; left: 50%; width: 2px; height: 60%; background: linear-gradient(180deg, transparent, rgba(255,255,255,0.3), transparent); z-index: 1;"></div>
+                        
+                        <!-- Island 1 -->
+                        <div class="floating-island-card" style="position: relative; z-index: 2; animation: float 4s ease-in-out infinite; animation-delay: 0s;">
+                            <div class="island-terrain" style="background: linear-gradient(180deg, #5ACE4A 0%, #4a9f3a 100%); border-radius: 24px 24px 12px 12px; padding: var(--spacing-lg); box-shadow: 0 12px 24px rgba(0,0,0,0.3); border: 2px solid #3d9b3d; position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                                <!-- Dirt layer -->
+                                <div style="position: absolute; bottom: -10px; left: 0; right: 0; height: 15px; background: #8B5A2B; border-radius: 0 0 8px 8px; border-top: 2px solid #6b4f2e;"></div>
+                                <!-- Stone layer -->
+                                <div style="position: absolute; bottom: -25px; left: 10px; right: 10px; height: 10px; background: #95A5A6; border-radius: 0 0 6px 6px; border-top: 1px solid #7f8c8d;"></div>
+                                
+                                <div class="island-content" style="position: relative; z-index: 3; text-align: center;">
+                                    <div class="island-icon" style="font-size: 3rem; margin-bottom: var(--spacing-sm); display: block;">📚</div>
+                                    <h3 class="h3-island" style="color: white; margin-bottom: var(--spacing-sm); text-shadow: 0 2px 0 #3d9b3d;">Grundlagen</h3>
+                                    <p class="text-island" style="color: #e8f4f4; line-height: 1.6; margin-bottom: var(--spacing-md);">Fundamentale Kenntnisse und Konzepte, die das Fundament für Ihr weiteres Lernen bilden.</p>
+                                    <span class="badge-island badge-primary" style="background: rgba(255,255,255,0.2); color: white; border: 1px solid rgba(255,255,255,0.3);">In Vorbereitung</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Island 2 -->
+                        <div class="floating-island-card" style="position: relative; z-index: 2; animation: float 4s ease-in-out infinite; animation-delay: 0.5s;">
+                            <div class="island-terrain" style="background: linear-gradient(180deg, #F4D03F 0%, #e5c434 100%); border-radius: 24px 24px 12px 12px; padding: var(--spacing-lg); box-shadow: 0 12px 24px rgba(0,0,0,0.3); border: 2px solid #c2a024; position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                                <!-- Dirt layer -->
+                                <div style="position: absolute; bottom: -10px; left: 0; right: 0; height: 15px; background: #8B5A2B; border-radius: 0 0 8px 8px; border-top: 2px solid #6b4f2e;"></div>
+                                <!-- Stone layer -->
+                                <div style="position: absolute; bottom: -25px; left: 10px; right: 10px; height: 10px; background: #95A5A6; border-radius: 0 0 6px 6px; border-top: 1px solid #7f8c8d;"></div>
+                                
+                                <div class="island-content" style="position: relative; z-index: 3; text-align: center;">
+                                    <div class="island-icon" style="font-size: 3rem; margin-bottom: var(--spacing-sm); display: block;">🎯</div>
+                                    <h3 class="h3-island" style="color: #6b4f2e; margin-bottom: var(--spacing-sm); text-shadow: 0 2px 0 #c2a024;">Praxis</h3>
+                                    <p class="text-island" style="color: #6b4f2e; line-height: 1.6; margin-bottom: var(--spacing-md);">Anwendungsorientierte Übungen und praktische Beispiele für den direkten Transfer.</p>
+                                    <span class="badge-island badge-secondary" style="background: rgba(255,255,255,0.2); color: white; border: 1px solid rgba(255,255,255,0.3);">In Vorbereitung</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Island 3 -->
+                        <div class="floating-island-card" style="position: relative; z-index: 2; animation: float 4s ease-in-out infinite; animation-delay: 1s;">
+                            <div class="island-terrain" style="background: linear-gradient(180deg, #3498DB 0%, #2980b9 100%); border-radius: 24px 24px 12px 12px; padding: var(--spacing-lg); box-shadow: 0 12px 24px rgba(0,0,0,0.3); border: 2px solid #2980b9; position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                                <!-- Dirt layer -->
+                                <div style="position: absolute; bottom: -10px; left: 0; right: 0; height: 15px; background: #8B5A2B; border-radius: 0 0 8px 8px; border-top: 2px solid #6b4f2e;"></div>
+                                <!-- Stone layer -->
+                                <div style="position: absolute; bottom: -25px; left: 10px; right: 10px; height: 10px; background: #95A5A6; border-radius: 0 0 6px 6px; border-top: 1px solid #7f8c8d;"></div>
+                                
+                                <div class="island-content" style="position: relative; z-index: 3; text-align: center;">
+                                    <div class="island-icon" style="font-size: 3rem; margin-bottom: var(--spacing-sm); display: block;">🚀</div>
+                                    <h3 class="h3-island" style="color: white; margin-bottom: var(--spacing-sm); text-shadow: 0 2px 0 #2980b9;">Projekte</h3>
+                                    <p class="text-island" style="color: #e8f4f4; line-height: 1.6; margin-bottom: var(--spacing-md);">Komplexe Anwendungsszenarien und reale Projekte für nachhaltige Kompetenzentwicklung.</p>
+                                    <span class="badge-island badge-tertiary" style="background: rgba(255,255,255,0.2); color: white; border: 1px solid rgba(255,255,255,0.3);">In Vorbereitung</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     
-                    <article class="card-island island-style floating-island" style="animation-delay: 0.4s;">
-                        <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">🤝</div>
-                        <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Unterstützende Community</h3>
-                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md); text-align: center;">Tauschen Sie sich mit Gleichgesinnten aus, lernen Sie voneinander und wachsen Sie gemeinsam in einer motivierenden Umgebung.</p>
-                    </article>
-                    
-                    <article class="card-island island-style floating-island" style="animation-delay: 0.6s;">
-                        <div class="card-icon" style="font-size: 2.5rem; margin-bottom: var(--spacing-sm); display: block; text-align: center;">🏆</div>
-                        <h3 class="h3-island" style="text-align: center; margin-bottom: var(--spacing-sm);">Nachweisbare Erfolge</h3>
-                        <p class="text-island" style="line-height: 1.6; margin-bottom: var(--spacing-md); text-align: center;">Erlangen Sie Zertifikate und bauen Sie Ihr Portfolio auf, während Sie neue Kompetenzen erwerben und verfestigen.</p>
-                    </article>
+                    <!-- Floating clouds -->
+                    <div class="floating-clouds" style="position: absolute; top: -20px; left: 0; right: 0; height: 100px; pointer-events: none; z-index: 1;">
+                        <div style="position: absolute; top: 20px; left: 10%; width: 60px; height: 30px; background: rgba(255,255,255,0.3); border-radius: 50%; animation: sway 8s ease-in-out infinite;"></div>
+                        <div style="position: absolute; top: 40px; right: 15%; width: 80px; height: 40px; background: rgba(255,255,255,0.2); border-radius: 50%; animation: sway 10s ease-in-out infinite; animation-delay: 2s;"></div>
+                    </div>
                 </div>
             </section>
 
