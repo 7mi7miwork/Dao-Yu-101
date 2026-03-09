@@ -1,0 +1,100 @@
+Structure-of-Thought: 011_inhaltsuebersicht_navigation.txt
+
+=== ZIELE ===
+Erstellung einer visuellen Inhaltsübersicht als Orientierungshilfe für Nutzer der Lernplattform.
+Schaffung einer neuen "Inhalte im Überblick" Sektion mit hierarchischer Darstellung aller Lernbereiche und Module.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003) → Lernbereiche-Layout (004) → Modul-Template (005) → Übungstypen (006) → Lernpfade/Level (007) → Modul-Detail-Template (008) → Rollen/Zielgruppen (009) → Minecraft/MakeCode (010)
+2. Ergänzung um visuelle Inhaltsübersicht als logische Weiterentwicklung der Plattform-Struktur
+3. Schaffung einer neuen "Inhalte im Überblick" Sektion mit hierarchischer Gliederung
+4. Darstellung der gesamten Wissensarchitektur in übersichtlichem Rasterformat
+5. Vorbereitung für zukünftige Navigation und Nutzerführung
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Inhaltsübersicht-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Inhaltsübersicht
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    ├── 005_modul_template.txt
+    ├── 006_uebungstypen.txt
+    ├── 007_lernpfade_level.txt
+    ├── 008_modul_detail_template.txt
+    ├── 009_rollen_zielgruppen.txt
+    ├── 010_minecraft_makecode.txt
+    └── 011_inhaltsuebersicht_navigation.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "Inhalte im Überblick" mit hierarchischer Struktur:
+1. **Lernbereiche → Module → Übungen → Lernpfade**
+   - Grundlagen: Basis-Konzepte, Theorie-Module, Verstehen-Übungen, Level 1
+   - Praxis: Anwendungs-Module, Anwenden-Übungen, Level 2
+   - Projekte: Komplexe Module, Reflektieren-Übungen, Level 3
+   - Ressourcen: Zusatzmaterialien, Werkzeuge, Referenzen
+
+2. **Spezialisierung Minecraft & MakeCode**
+   - Einführung in visuelle Programmierung
+   - Blockbasierte Projekte
+   - Python-Übergang
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Orientierung**: Gibt Nutzern schnellen Überblick über die gesamte Plattform-Struktur
+2. **Mental Mapping**: Schafft mentale Landmarken für die Navigation
+3. **Erwartungsmanagement**: Zeigt den Umfang und die Tiefe der Lerninhalte
+4. **Motivationsaufbau**: Visualisiert die Lernreise und mögliche Pfade
+5. **Strukturverständnis**: Veranschaulicht die didaktische Architektur
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische visuelle Übersicht ohne Interaktion
+- Semantisches HTML5 (section, article, ul, li, h3-h5)
+- Responsive Darstellung für alle Endgeräte
+- Klare visuelle Hierarchie durch Raster-Layout
+- Einheitliches Design mit bestehendem Farbschema
+- GitHub Pages kompatibel
+- Mobile-First Ansatz
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Ebenen durch Einrückung und Größe
+2. **Raster-Layout**: Übersichtliche Darstellung in Grid-Struktur
+3. **Konsistente Farben**: Weiterführung des bestehenden Farbschemas
+4. **Gute Lesbarkeit**: Ausreichend Kontrast und klare Typografie
+5. **Mobile-First**: Optimale Darstellung auf allen Geräten
+6. **Ruhige Ästhetik**: Keine überladenen Animationen, dezente Hover-Effekte
+
+=== WARUM EINE INHALTSÜBERSICHT WICHTIG IST ===
+- **Nutzerführung**: Hilft bei der Orientierung auf der wachsenden Plattform
+- **Transparenz**: Zeigt den kompletten Umfang der Lernmöglichkeiten
+- **Planung**: Ermöglicht Lernenden die Planung ihrer Lernreise
+- **Strukturverständnis**: Veranschaulicht die durchdachte Didaktik
+- **Skalierbarkeit**: Bereitet die Plattform auf zukünftige Inhalte vor
+
+=== ABGRENZUNG ZUR ECHTEN NAVIGATION ===
+- **Rein visuell**: Keine Links, keine Klick-Funktionalität
+- **Informationscharakter**: Dient der Orientierung, nicht der Navigation
+- **Statische Darstellung**: Keine dynamischen Filter oder Suchfunktionen
+- **Übersichtszweck**: Zeigt was verfügbar ist, nicht wie man dorthin kommt
+- **Vorbereitung**: Legt Grundlage für spätere interaktive Navigation
+
+=== VISUELLE STRUKTUR ===
+1. **Hauptkategorien**: Lernbereiche als primäre Gliederung
+2. **Unterebenen**: Module mit Icons und Kurzbeschreibungen
+3. **Details**: Übungs- und Level-Informationen
+4. **Spezialbereiche**: Minecraft & MakeCode als eigenständiger Bereich
+5. **Status-Indikatoren**: Visualisierung des Entwicklungsstands
+
+=== INTEGRATION IN BESTEHENDE STRUKTUR ===
+1. **Positionierung**: Logische Ergänzung nach Rollen/Zielgruppen, vor Minecraft-Sektion
+2. **Konsistentes Design**: Farbschema und Typografie passen zur bestehenden Seite
+3. **Semantische Struktur**: Verwendung gleicher HTML-Elemente wie in anderen Sektionen
+4. **Responsive Integration**: Übersicht passt sich bestehendem Layout an
+5. **Skalierbarkeit**: Struktur ermöglicht einfache Erweiterung um neue Inhalte
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Implementierung einfacher Navigation zwischen den Sektionen oder Erstellung interaktiver Inhaltsfilter für die Übersicht.

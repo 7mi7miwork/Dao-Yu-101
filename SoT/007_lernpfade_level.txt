@@ -1,0 +1,99 @@
+Structure-of-Thought: 007_lernpfade_level.txt
+
+=== ZIELE ===
+Einführung einer statischen Lernpfad- / Level-Struktur als Grundlage für zukünftige Progression und Freischaltung.
+Schaffung einer neuen "Lernpfade" Sektion mit mindestens 3 Leveln als Platzhalter für die didaktische Progression.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003) → Lernbereiche-Layout (004) → Modul-Template (005) → Übungstypen (006)
+2. Ergänzung um konkrete Lernpfad-Struktur als logische Weiterentwicklung der didaktischen Architektur
+3. Schaffung einer neuen Sektion "Lernpfade" mit visuellen Level-Platzhaltern
+4. Definition von 3 Leveln: Einstieg → Aufbau → Vertiefung
+5. Vorbereitung für spätere Freischaltungs-Logik und Progressions-Tracking
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Lernpfade-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Level-Struktur
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    ├── 005_modul_template.txt
+    ├── 006_uebungstypen.txt
+    └── 007_lernpfade_level.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "Lernpfade" mit 3 statischen Level-Platzhaltern:
+1. **Level 1 – Einstieg**
+   - Titel: "Level 1 – Einstieg"
+   - Beschreibung: Grundlegende Konzepte und erste Schritte
+   - Lernziel: Solide Basis für weiterführende Themen schaffen
+
+2. **Level 2 – Aufbau**
+   - Titel: "Level 2 – Aufbau"
+   - Beschreibung: Vertiefung und praktische Anwendung
+   - Lernziel: Kompetenzen erweitern und anwenden
+
+3. **Level 3 – Vertiefung**
+   - Titel: "Level 3 – Vertiefung"
+   - Beschreibung: Expertise und Transfer in neue Kontexte
+   - Lernziel: Meisterschaft und selbstständige Problemlösung
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Progressionsorientierung**: Schafft klare Vorstellung vom Lernfortschritt
+2. **Motivationsaufbau**: Visuelle Darstellung von erreichbaren Zielen
+3. **Strukturierung**: Ordnet Inhalte in logische Lernsequenzen
+4. **Erwartungsmanagement**: Kommuniziert den Aufwand und die Entwicklung
+5. **Freischaltungsvorbereitung**: Bereitet spätere Level-Systeme vor
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Level-Karten ohne Interaktion
+- Semantisches HTML5 (section, article, h3, p)
+- Responsive Darstellung für alle Endgeräte
+- Klare visuelle Progressions-Anmutung (vertikal oder horizontal)
+- Einheitliches Design mit bestehendem Farbschema
+- GitHub Pages kompatibel
+- Mobile-First Ansatz
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Level durch Karten-Design
+2. **Progressionsvisualisierung**: Visuelle Andeutung von Wachstum und Fortschritt
+3. **Konsistente Farben**: Weiterführung des bestehenden Farbschemas mit Progressions-Elementen
+4. **Mobile-First**: Optimale Darstellung auf allen Geräten
+5. **Ruhige Ästhetik**: Keine überladenen Animationen, dezente Progressions-Indikatoren
+
+=== WARUM LERNPFADE WICHTIG SIND ===
+- **Lernpsychologie**: Klare Ziele und sichtbare Fortschritte motivieren
+- **Strukturierung**: Helfen Lernenden, komplexe Themen zu organisieren
+- **Individualisierung**: Ermöglichen unterschiedliche Lerngeschwindigkeiten
+- **Qualitätssicherung**: Stellen sicher, dass Grundlagen vor fortgeschrittenen Themen gelernt werden
+- **Engagement**: Schaffen Langzeitmotivation durch erreichbare Meilensteine
+
+=== VORBEREITUNG FÜR SPÄTERE FREISCHALTUNG ===
+1. **Level 1**: Später automatisch freigeschaltet für alle Nutzer
+2. **Level 2**: Freischaltung nach Abschluss von Level 1 Inhalten
+3. **Level 3**: Freischaltung nach erfolgreichem Abschluss von Level 2
+4. **Tracking**: Struktur ermöglicht spätere Lernfortschrittsmessung
+5. **Personalisierung**: Template ermöglicht adaptive Level-Empfehlungen
+
+=== INTEGRATION IN BESTEHENDE STRUKTUR ===
+1. **Anbindung an Lernbereiche**: Level ergänzen die bestehenden Lernbereiche
+2. **Konsistentes Design**: Farbschema und Typografie passen zur bestehenden Seite
+3. **Semantische Struktur**: Verwendung gleicher HTML-Elemente wie in anderen Sektionen
+4. **Responsive Integration**: Level-Karten passen sich bestehendem Layout an
+5. **Skalierbarkeit**: Struktur ermöglicht einfache Erweiterung um weitere Level
+
+=== DIDAKTISCHE PROGRESSIONSLOGIK ===
+1. **Kumulativer Aufbau**: Jedes Level baut auf dem vorherigen auf
+2. **Spiralcurriculum**: Themen werden in steigender Komplexität wiederholt
+3. **Kompetenzorientierung**: Jedes Level fokussiert spezifische Kompetenzstufen
+4. **Transferförderung**: Höhere Level betonen Anwendung und Transfer
+5. **Selbstständigkeit**: Progression von angeleitetem zu selbstständigem Lernen
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Befüllung der Level mit echten Lerninhalten oder Implementierung einfacher Freischaltungslogik für Level-Übergänge.

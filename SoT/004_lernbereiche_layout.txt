@@ -1,0 +1,69 @@
+Structure-of-Thought: 004_lernbereiche_layout.txt
+
+=== ZIELE ===
+Einführung einer visuellen Inhaltsstruktur für zukünftige Lerninhalte auf der Startseite.
+Schaffung von 3-4 statischen Platzhalter-Sektionen als vorbereitende Struktur für spätere Lernmodule.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003)
+2. Ergänzung der Startseite um "Lernbereiche" Sektion mit visuellen Karten
+3. Schaffung statischer Platzhalter ohne Funktionalität
+4. Vorbereitung der Struktur für zukünftige dynamische Inhalte
+5. Beibehaltung des ruhigen, einladenden Designs aus Schritt 003
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Lernbereiche-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Lernbereich-Karten
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    └── 004_lernbereiche_layout.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "Lernbereiche" mit 3-4 statischen Platzhalter-Karten:
+- Grundlagen (Fundamentale Kenntnisse und Konzepte)
+- Praxis (Anwendungsorientierte Übungen und Projekte)
+- Projekte (Komplexe Anwendungsszenarien)
+- Ressourcen (Zusätzliche Materialien und Referenzen)
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Strukturelle Orientierung**: Nutzer erhalten einen visuellen Überblick über die zukünftige Inhaltsstruktur
+2. **Erwartungsmanagement**: Klare Kommunikation darüber, welche Lernbereiche entwickelt werden
+3. **Motivationsaufbau**: Visuelle Darstellung schafft Vorfreude auf zukünftige Inhalte
+4. **Wissensarchitektur**: Etablierung einer logischen Gliederung für spätere Module
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Platzhalter-Karten ohne Funktionalität
+- Responsive Grid-Layout für mobile-first Ansicht
+- Moderne Card-Design mit Hover-Effekten
+- Semantisches HTML5 (section, article, figure)
+- CSS Grid/Flexbox für flexible Anordnung
+- GitHub Pages kompatibel
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Lernbereiche durch Card-Design
+2. **Farbliche Konsistenz**: Weiterführung des bestehenden Farbschemas (#667eea)
+3. **Ruhige Ästhetik**: Keine überladenen Animationen, dezente Hover-Effekte
+4. **Mobile-First**: Optimale Darstellung auf allen Endgeräten
+5. **Barrierefreiheit**: Semantisches HTML und klare Struktur
+
+=== WARUM DIESE STRUKTUR WICHTIG IST ===
+- **Skalierbarkeit**: Bereitet die Plattform auf zukünftige Inhaltserweiterung vor
+- **Nutzerführung**: Schafft mentale Landmarken für die Navigation
+- **Inhaltsplanung**: Visualisiert die geplante Wissensarchitektur
+- **Entwicklungsrichtung**: Gibt klare Vorgaben für nächste Entwicklungsschritte
+- **Professioneller Auftritt**: Zeigt strukturierte Planung und durchdachtes Konzept
+
+=== VORBEREITUNG FÜR SPÄTERE MODULE ===
+1. **Grundlagen**: Wird Basis-Kurse zu Konzepten und Theorien enthalten
+2. **Praxis**: Wird interaktive Übungen und praktische Anwendungen bieten
+3. **Projekte**: Wird komplexe, praxisnahe Projektvorlagen bereitstellen
+4. **Ressourcen**: Wird zusätzliche Materialien, Tools und Referenzen sammeln
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Befüllung der Lernbereiche mit echten Inhalten oder Implementierung einfacher Navigation zwischen den Bereichen.

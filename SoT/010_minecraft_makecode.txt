@@ -1,0 +1,107 @@
+Structure-of-Thought: 010_minecraft_makecode.txt
+
+=== ZIELE ===
+Einführung einer dedizierten Minecraft Education & MakeCode Lerninhalte-Sektion als Vorbereitung für zukünftige interaktive Programmier-Lernmodule.
+Schaffung einer neuen "Minecraft & MakeCode Lerninhalte" Sektion mit erklärendem Charakter und Platzhaltern für zukünftige interaktive Inhalte.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003) → Lernbereiche-Layout (004) → Modul-Template (005) → Übungstypen (006) → Lernpfade/Level (007) → Modul-Detail-Template (008) → Rollen/Zielgruppen (009)
+2. Ergänzung um spezialisierte Minecraft & MakeCode Sektion als konkrete Anwendung der didaktischen Architektur
+3. Schaffung einer neuen Sektion "Minecraft & MakeCode Lerninhalte" mit erklärendem Charakter
+4. Vorbereitung für zukünftige interaktive Blöcke und Programmier-Lerninhalte
+5. Integration in bestehende didaktische Struktur (Lernbereiche, Level, Übungstypen)
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Minecraft & MakeCode Sektion
+├── css\
+│   └── style.css       # Neue Styles für Minecraft & MakeCode Sektion
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    ├── 005_modul_template.txt
+    ├── 006_uebungstypen.txt
+    ├── 007_lernpfade_level.txt
+    ├── 008_modul_detail_template.txt
+    ├── 009_rollen_zielgruppen.txt
+    └── 010_minecraft_makecode.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "Minecraft & MakeCode Lerninhalte" mit:
+1. **Kurze Einführung**
+   - Erklärung des didaktischen Ansatzes mit Minecraft Education
+   - Verbindung von spielerischem Lernen und Programmierkonzepten
+   - Zielgruppe und Vorkenntnisse
+
+2. **Beschreibung der Lernziele**
+   - Grundlegende Programmierkonzepte verstehen
+   - Kreatives Problemlösen in Minecraft-Umgebung
+   - Transfer von Programmierkenntnissen in andere Kontexte
+
+3. **Hinweis auf MakeCode-Nutzung**
+   - Erklärende Beschreibung von MakeCode als visuelle Programmierumgebung
+   - Vorteile des blockbasierten Programmierens für Einsteiger
+   - Brücke zu textbasierten Programmiersprachen wie Python
+
+4. **Platzhalter für zukünftige interaktive Blöcke**
+   - Strukturelle Vorbereitung für spätere Code-Beispiele
+   - Platzhalter für interaktive Übungen und Projekte
+   - Integration in bestehende Übungstypen (Verstehen/Anwenden/Reflektieren)
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Motivationsaufbau**: Nutzt die Beliebtheit von Minecraft für Programmier-Lernmotivation
+2. **Spielerisches Lernen**: Verbindet Gaming-Elemente mit ernsthaftem Lernen
+3. **Niedrigschwelliger Einstieg**: Blockbasierte Programmierung senkt Einstiegshürden
+4. **Transferförderung**: Bereitet Übergang zu textbasierten Sprachen (Python) vor
+5. **Praxisrelevanz**: Zeigt konkrete Anwendung von Programmierkonzepten
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Sektion ohne echte Interaktion
+- Semantisches HTML5 (section, article, h3, p, ul)
+- Responsive Darstellung für alle Endgeräte
+- Klare visuelle Abgrenzung zur bestehenden Seite
+- Einheitliches Design mit bestehendem Farbschema
+- GitHub Pages kompatibel
+- Mobile-First Ansatz
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Minecraft-Sektion durch Card-Design
+2. **Themenbezogene Farben**: Subtile Anlehnung an Minecraft-Ästhetik (grün-braune Töne)
+3. **Konsistente Integration**: Einfügung in bestehendes Layout ohne Bruch
+4. **Mobile-First**: Optimale Darstellung auf allen Geräten
+5. **Ruhige Ästhetik**: Keine überladenen Animationen, dezente Gaming-Elemente
+
+=== WARUM MINECRAFT & MAKECODE WICHTIG SIND ===
+- **Zielgruppenansprache**: Spricht junge Lernende durch bekannte Gaming-Umgebung an
+- **Motivation**: Nutzt intrinsische Motivation durch spielerische Elemente
+- **Didaktische Brücke**: Baut Brücke zwischen visuellem und textuellem Programmieren
+- **Praxisbezug**: Zeigt direkte Anwendung von Programmierkonzepten in virtueller Welt
+- **Zukunftsfähigkeit**: Bereitet auf digitale Kompetenzen der Zukunft vor
+
+=== VORBEREITUNG FÜR SPÄTERE INTERAKTIVE INHALTE ===
+1. **MakeCode-Blöcke**: Später echte MakeCode-Code-Beispiele und Übungen
+2. **Python-Integration**: Später Übergang von Blöcken zu Python-Code
+3. **Projekt-Templates**: Später konkrete Minecraft-Projektvorlagen
+4. **Interaktive Demos**: Später eingebettete MakeCode-Simulationen
+5. **Lernfortschritt**: Später Tracking von Minecraft-Programmier-Fortschritten
+
+=== INTEGRATION IN BESTEHENDE DIDAKTISCHE STRUKTUR ===
+1. **Lernbereiche**: Ergänzt den "Praxis"-Bereich um konkrete Anwendungsbeispiele
+2. **Level-Struktur**: Passt in Einstieg/Aufbau/Vertiefung-Level
+3. **Übungstypen**: Unterstützt alle drei Übungstypen (Verstehen/Anwenden/Reflektieren)
+4. **Rollen**: Spricht besonders "Lernende" und "Selbstlernende" an
+5. **Modul-Template**: Kann als konkretes Beispiel für zukünftige Module dienen
+
+=== DIDAKTISCHE MOTIVATION ===
+1. **Konstruktivistischer Ansatz**: Lernen durch aktives Gestalten und Experimentieren
+2. **Situiertes Lernen**: Programmierkonzepte werden in meaningful context eingebettet
+3. **Multiple Repräsentationen**: Visuelle Blöcke → Textbasierter Code → Reale Anwendung
+4. **Scaffolding**: Schrittweiser Übergang von einfachen zu komplexen Konzepten
+5. **Intrinsic Motivation**: Spielfreude als Treiber für Lernmotivation
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Befüllung der Platzhalter mit echten MakeCode-Beispielen oder Implementierung einfacher interaktiver Code-Demonstrationen für Minecraft Education.

@@ -1,0 +1,154 @@
+Structure-of-Thought: 013_mehrseitige_struktur_navigation.txt
+
+=== ZIELE ===
+Umstellung der bisherigen Ein-Seiten-Struktur auf eine statische Mehrseiten-Architektur mit einheitlicher Navigation.
+Schaffung klarer thematischer Trennung der Inhalte für bessere Nutzerführung und Übersichtlichkeit.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Umfassende Ein-Seiten-Plattform mit allen didaktischen Elementen (001-012)
+2. Identifikation thematischer Blöcke für logische Seitenaufteilung
+3. Erstellung statischer HTML-Seiten mit einheitlicher Navigation
+4. Verteilung vorhandener Inhalte auf thematisch passende Seiten
+5. Implementierung rein statischer Navigation ohne JavaScript
+6. Beibehaltung des konsistenten Designs und responsiven Layouts
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html              # Startseite mit Mission & Vision
+├── lernbereiche.html        # Übersicht der 4 Lernbereiche
+├── lernpfade.html          # Level-Struktur & Progression
+├── module.html             # Modul-Templates & -Struktur
+├── uebungen.html           # Übungstypen & -formate
+├── rollen.html             # Zielgruppen & Nutzerrollen
+├── minecraft.html          # Spezialbereich Minecraft & MakeCode
+├── css\
+│   └── style.css           # Einheitliche Styles für alle Seiten
+├── js\
+│   └── script.js           # Minimaler JavaScript-Platzhalter
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    ├── 005_modul_template.txt
+    ├── 006_uebungstypen.txt
+    ├── 007_lernpfade_level.txt
+    ├── 008_modul_detail_template.txt
+    ├── 009_rollen_zielgruppen.txt
+    ├── 010_minecraft_makecode.txt
+    ├── 011_inhaltsuebersicht_navigation.txt
+    ├── 012_design_konsistenz_audit.txt
+    └── 013_mehrseitige_struktur_navigation.txt  # Diese Datei
+
+=== SEITENÜBERSICHT & INHALTSVERTEILUNG ===
+
+**1. index.html – Start & Mission**
+- Hero-Bereich mit Titel und Mission
+- Willkommensabschnitt
+- "Was dich hier erwartet" (4 Erwartungs-Items)
+- Unsere Vision
+- Abschluss: "Der Beginn einer Reise"
+
+**2. lernbereiche.html – Lernbereiche**
+- Einleitung zu Lernbereichen
+- 4 Lernbereich-Karten: Grundlagen, Praxis, Projekte, Ressourcen
+- Inhalte im Überblick (gekürzte Version)
+
+**3. lernpfade.html – Lernpfade**
+- Einleitung zu Lernpfaden
+- 3 Level-Karten: Einstieg, Aufbau, Vertiefung
+- Erklärung der Lernprogression
+
+**4. module.html – Module**
+- Einleitung zu Modulen
+- Modul-Template-Beispiel (Zeitmanagement)
+- Modul-Detailseite-Beispiel (Grundlagen des Lernens)
+- Erklärung des didaktischen Aufbaus
+
+**5. uebungen.html – Übungen**
+- Einleitung zu Übungstypen
+- 3 Übungstyp-Karten: Verstehen, Anwenden, Reflektieren
+- Didaktischer Nutzen der Vielfalt
+
+**6. rollen.html – Rollen & Zielgruppen**
+- Einleitung zu Zielgruppen
+- 3 Rollen-Karten: Lernende, Lehrende, Selbstlernende
+- Erklärung der persönlichen Nutzung
+
+**7. minecraft.html – Minecraft & MakeCode**
+- Einleitung zur Spezialisierung
+- Programmieren lernen in Minecraft
+- MakeCode-Einführung
+- Didaktischer Hintergrund
+- Ausblick auf zukünftige Inhalte
+
+=== NAVIGATIONSPRINZIPIEN ===
+
+**1. Statische Navigation**
+- Kein JavaScript für Navigation erforderlich
+- Reine HTML-Links mit CSS-Styling
+- Aktive Seite wird über CSS-Klassen markiert
+- Mobiles Hamburger-Menü nur mit CSS (optional)
+
+**2. Einheitliche Struktur**
+- Identischer Header auf allen Seiten
+- Identische Navigation auf allen Seiten
+- Identischer Footer auf allen Seiten
+- Konsistente CSS-Datei für alle Seiten
+
+**3. Visuelle Hierarchie**
+- Hauptnavigation immer sichtbar
+- Aktive Seite hervorgehoben
+- Klare Navigationsreihenfolge
+- Mobile-First Ansatz
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische HTML-Seiten ohne dynamische Inhalte
+- Relative Pfade für Ressourcen (css/style.css, js/script.js)
+- Einheitliche CSS-Datei mit Navigation-Styles
+- Responsive Design für alle Seiten
+- GitHub Pages kompatibel
+- Barrierefreie Navigation (ARIA-Labels, Tastatur-Navigation)
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Navigation-Layout**: Horizontale Navigation im Header, mobile Ansicht als Hamburger
+2. **Aktive Seite**: CSS-Klasse .active für visuelle Markierung
+3. **Konsistente Farben**: Weiterführung des bestehenden Farbschemas
+4. **Responsive Breakpoints**: 768px und 480px für mobile Ansichten
+5. **Hover-Effekte**: Dezente Animationen für bessere UX
+
+=== GRÜNDE FÜR STATISCHE MEHRSEITENLÖSUNG ===
+
+**1. Übersichtlichkeit**
+- Thematische Trennung reduziert kognitive Last
+- Klare Fokussierung auf spezifische Inhalte pro Seite
+- Bessere Orientierung für Nutzer
+
+**2. Skalierbarkeit**
+- Einfache Erweiterung um neue Themenbereiche
+- Modulare Struktur ermöglicht gezielte Updates
+- Bessere Wartbarkeit bei wachsendem Inhaltsumfang
+
+**3. GitHub Pages Kompatibilität**
+- Keine serverseitige Technologie erforderlich
+- Schnelle Ladezeiten durch statische Dateien
+- Einfache Deployment- und Hosting-Lösung
+
+**4. Nutzererfahrung**
+- Direkte Navigation zu gewünschten Themen
+- Klarer mentaler Map der Plattform-Struktur
+- Bessere Bookmark-Möglichkeiten für spezifische Inhalte
+
+**5. SEO & Auffindbarkeit**
+- Separate URLs für thematische Bereiche
+- Gezieltere Optimierung pro Thema
+- Bessere Indexierung durch Suchmaschinen
+
+=== INTEGRATION BESTEHENDER INHALTE ===
+- Alle vorhandenen Inhalte werden thematisch zugeordnet
+- Texte werden gekürzt, aber nicht inhaltlich verändert
+- Visuelle Elemente und Cards bleiben erhalten
+- Didaktische Struktur bleibt vollständig erhalten
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Befüllung der Seiten mit echten Lerninhalten oder Implementierung einfacher Interaktivität für ausgewählte Bereiche.

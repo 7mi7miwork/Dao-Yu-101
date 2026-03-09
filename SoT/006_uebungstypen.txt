@@ -1,0 +1,91 @@
+Structure-of-Thought: 006_uebungstypen.txt
+
+=== ZIELE ===
+Einführung statischer Übungs- und Aufgabenformate als visuelle Templates für zukünftige Lernmodule.
+Schaffung einer neuen "Übungstypen" Sektion mit mindestens 3 verschiedenen Übungstypen als Platzhalter.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003) → Lernbereiche-Layout (004) → Modul-Template (005)
+2. Ergänzung um konkrete Übungstypen als Erweiterung des Modul-Templates
+3. Schaffung einer neuen Sektion "Übungstypen" mit visuellen Platzhaltern
+4. Definition von 3 Übungstypen: Verstehen, Anwenden, Reflektieren
+5. Vorbereitung für spätere Interaktivität durch klare visuelle Struktur
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Übungstypen-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Übungsboxen
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    ├── 005_modul_template.txt
+    └── 006_uebungstypen.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "Übungstypen" mit 3 statischen Platzhaltern:
+1. **Verstehen** (Lesen & Nachdenken)
+   - Textbasierte Inhalte zum Verstehen
+   - Platzhalter für Erklärungen und Konzepte
+   - Fokus auf kognitive Verarbeitung
+
+2. **Anwenden** (Schritt-für-Schritt)
+   - Praktische Anleitungen und Arbeitsanweisungen
+   - Platzhalter für konkrete Aufgaben
+   - Fokus auf praktische Umsetzung
+
+3. **Reflektieren** (Fragen beantworten)
+   - Nachdenkfragen und Selbstreflexion
+   - Platzhalter für Diskussionsfragen
+   - Fokus auf metakognitive Prozesse
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Lernvielfalt**: Bietet verschiedene Zugänge zum Lernstoff
+2. **Kognitive Vielfalt**: Spricht unterschiedliche Lerntypen an
+3. **Prozessunterstützung**: Leitert durch kompletten Lernzyklus (Verstehen → Anwenden → Reflektieren)
+4. **Motivation**: Variierte Aufgabenformate halten Lernende engagiert
+5. **Transferförderung**: Ermöglicht Anwendung des Gelernten in verschiedenen Kontexten
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Übungsboxen ohne Interaktion
+- Semantisches HTML5 (section, article, h3, p)
+- Responsive Darstellung für alle Endgeräte
+- Klare visuelle Unterscheidung der Übungstypen
+- Einheitliches Design mit bestehendem Farbschema
+- GitHub Pages kompatibel
+- Gute Lesbarkeit auf Mobile & Desktop
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Übungstypen durch Boxen
+2. **Farbcodierung**: Subtile Farbunterschiede für jeden Übungstyp
+3. **Konsistente Typografie**: Einheitliche Schriftgrößen und -abstände
+4. **Mobile-First**: Optimale Darstellung auf allen Geräten
+5. **Ruhige Ästhetik**: Keine überladenen Animationen, dezente Hover-Effekte
+
+=== WARUM ÜBUNGSTYPEN WICHTIG SIND ===
+- **Lernpsychologie**: Verschiedene Aktivierungsformen fördern tieferes Lernen
+- **Individualisierung**: Ermöglicht unterschiedliche Zugänge zum selben Inhalt
+- **Qualitätssicherung**: Stellt didaktische Vollständigkeit sicher
+- **Engagement**: Variierte Formate verhindern Monotonie
+- **Transfer**: Unterstützt Anwendung des Wissens in verschiedenen Kontexten
+
+=== VORBEREITUNG FÜR SPÄTERE INTERAKTIVITÄT ===
+1. **Verstehen**: Später erweiterbar um Multiple-Choice-Tests oder Lückentexte
+2. **Anwenden**: Später erweiterbar um interaktive Schritt-für-Schritt-Anleitungen
+3. **Reflektieren**: Später erweiterbar um diskussionsbasierte Foren oder Journale
+4. **Tracking**: Struktur ermöglicht spätere Lernfortschrittsmessung
+5. **Adaptivität**: Template ermöglicht personalisierte Übungsauswahl
+
+=== INTEGRATION IN BESTEHENDE STRUKTUR ===
+1. **Anbindung an Modul-Template**: Übungstypen ergänzen das bestehende Modul-Template
+2. **Konsistentes Design**: Farbschema und Typografie passen zur bestehenden Seite
+3. **Semantische Struktur**: Verwendung gleicher HTML-Elemente wie in anderen Sektionen
+4. **Responsive Integration**: Übungsboxen passen sich bestehendem Layout an
+5. **Skalierbarkeit**: Struktur ermöglicht einfache Erweiterung um weitere Übungstypen
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Befüllung der Übungstypen mit echten Lerninhalten oder Implementierung einfacher Interaktivität für ausgewählte Übungen.

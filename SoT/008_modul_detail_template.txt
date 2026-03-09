@@ -1,0 +1,116 @@
+Structure-of-Thought: 008_modul_detail_template.txt
+
+=== ZIELE ===
+Erstellung eines statischen Modul-Detailseiten-Templates als Blaupause für zukünftige einzelne Lernmodule.
+Schaffung einer vollständigen, didaktisch fundierten Struktur für spätere konkrete Lerninhalte.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003) → Lernbereiche-Layout (004) → Modul-Template (005) → Übungstypen (006) → Lernpfade/Level (007)
+2. Synthese aller vorheriger Elemente zu einem kompletten Modul-Detail-Template
+3. Schaffung einer "Modul-Detailseite Beispiel" Sektion als konkrete Blaupause
+4. Integration aller didaktischen Komponenten zu einem vollständigen Lernerlebnis
+5. Vorbereitung für die Erstellung echten, nutzbaren Lernmaterials
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Modul-Detail-Template-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Modul-Detailseite
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    ├── 005_modul_template.txt
+    ├── 006_uebungstypen.txt
+    ├── 007_lernpfade_level.txt
+    └── 008_modul_detail_template.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "Modul-Detailseite Beispiel" mit vollständiger Struktur:
+1. **Modul-Titel**
+   - Klar verständliche Bezeichnung des Lerninhalts
+   - Level-Indikator (Einstieg/Aufbau/Vertiefung)
+   - Geschätzte Lernzeit
+
+2. **Kurzbeschreibung**
+   - Zusammenfassung des Modulinhalts
+   - Zielgruppe und Vorkenntnisse
+   - Lernergebnisse im Überblick
+
+3. **Lernziele**
+   - Konkrete, messbare Lernziele
+   - Was der Nutzer nach dem Modul können/kennen wird
+   - Praxisrelevanz der Lernziele
+
+4. **Inhaltsabschnitt (Erklärung)**
+   - Didaktisch aufbereiteter Hauptinhalt
+   - Strukturierte Erklärung mit Abschnitten
+   - Platzhalter für visuelle Elemente
+
+5. **Übungsübersicht**
+   - Zusammenfassung der enthaltenen Übungen
+   - Bezug zu den Übungstypen (Verstehen/Anwenden/Reflektieren)
+   - Platzhalter für konkrete Aufgaben
+
+6. **Reflexion / Zusammenfassung**
+   - Wichtigste Erkenntnisse zusammenfassen
+   - Transfer in die Praxis
+   - Nächste Lernschritte
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Vollständigkeit**: Integriert alle vorherigen didaktischen Elemente
+2. **Praxisorientierung**: Zeigt konkreten Anwendungsfall der Templates
+3. **Qualitätssicherung**: Stellt didaktische Vollständigkeit sicher
+4. **Skalierbarkeit**: Schafft wiederverwendbare Vorlage für alle Module
+5. **Nutzererfahrung**: Bietet komplettes Lernerlebnis als Beispiel
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statisches Modul-Detail-Template ohne Interaktion
+- Semantisches HTML5 (article, section, h2-h4, p, ul, li)
+- Responsive Darstellung für alle Endgeräte
+- Klare visuelle Trennung der Modul-Komponenten
+- Einheitliches Design mit bestehendem Farbschema
+- GitHub Pages kompatibel
+- Mobile-First Ansatz
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Abschnitte durch Cards
+2. **Konsistente Farben**: Weiterführung des bestehenden Farbschemas
+3. **Gute Lesbarkeit**: Ausreichend Kontrast und klare Typografie
+4. **Mobile-First**: Optimale Darstellung auf allen Geräten
+5. **Ruhige Ästhetik**: Keine überladenen Animationen
+
+=== WARUM EIN MODUL-DETAIL-TEMPLATE WICHTIG IST ===
+- **Vollständigkeit**: Zeigt kompletten Aufbau eines Lernmoduls
+- **Integration**: Verbindet alle vorherigen didaktischen Elemente
+- **Praxisbezug**: Bietet konkretes Beispiel für Inhaltsersteller
+- **Standardisierung**: Stellt einheitliche Qualität für alle Module sicher
+- **Effizienz**: Beschleunigt die Erstellung neuer Lerninhalte
+
+=== AUFBAU DER MODUL-DETAILSEITE ===
+1. **Header**: Titel, Level, Lernzeit
+2. **Einleitung**: Kurzbeschreibung und Zielgruppe
+3. **Lernziele**: Konkrete, messbare Ziele
+4. **Hauptinhalt**: Strukturierte Erklärung
+5. **Übungen**: Überblick über praktische Anwendungen
+6. **Abschluss**: Reflexion und nächste Schritte
+
+=== VORBEREITUNG FÜR ECHTE MODULE ===
+1. **Inhaltsbefüllung**: Struktur ist bereit für echte Lerninhalte
+2. **Medienintegration**: Platzhalter für Bilder, Videos, Diagramme
+3. **Interaktivität**: Spätere Erweiterung um Tests und Übungen möglich
+4. **Tracking**: Struktur ermöglicht spätere Lernfortschrittsmessung
+5. **Personalisierung**: Template ermöglicht adaptive Lernpfade
+
+=== INTEGRATION IN BESTEHENDE STRUKTUR ===
+1. **Anbindung an Lernpfade**: Modul passt in Level-Struktur
+2. **Konsistentes Design**: Farbschema und Typografie passen zur Seite
+3. **Semantische Struktur**: Verwendung gleicher HTML-Elemente
+4. **Responsive Integration**: Modul passt sich bestehendem Layout an
+5. **Skalierbarkeit**: Struktur ermöglicht einfache Erweiterung
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Befüllung des Modul-Detail-Templates mit echten Lerninhalten oder Erstellung mehrerer konkreter Module für verschiedene Lernbereiche und Level.

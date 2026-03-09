@@ -1,0 +1,41 @@
+Structure-of-Thought: 002_navigation_kurse.txt
+
+=== ZIELE ===
+Erweiterung der Basis-Webseite um eine funktionale Navigation und erste Kursübersicht.
+Aufbau der Grundstruktur für die Lernplattform mit semantischer Navigation und Kurs-Karten.
+
+=== GEDANKENGANG ===
+1. Bestehende HTML-Struktur um Navigation erweitern
+2. Semantisches <nav> Element mit responsivem Menü hinzufügen
+3. Kursübersicht mit modernen CSS-Karten erstellen
+4. JavaScript für mobile Navigation (Hamburger-Menü)
+5. Smooth Scrolling und Hover-Effekte implementieren
+6. Barrierefreiheit (ARIA-Labels, Tastatur-Navigation)
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Navigation und Kurs-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Navigation und Kurs-Karten
+└── js\
+    └── script.js       # Mobile Navigation und Interaktivität
+
+=== INHALTLICHE ANFORDERUNGEN ===
+- Hauptnavigation: Home, Kurse, Über uns, Kontakt
+- Kursübersicht mit 3-4 Beispielkursen
+- Jeder Kurs: Titel, Beschreibung, Dauer, Level
+- Mobiles Hamburger-Menü
+- Smooth Scrolling zu Sektionen
+- Hover-Effekte und Mikro-Interaktionen
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Dateien (HTML, CSS, JavaScript)
+- GitHub Pages kompatibel
+- Mobile-First Responsive Design
+- CSS Grid/Flexbox für Layout
+- Semantisches HTML5
+- Barrierefreie Navigation (ARIA)
+- CSS Custom Properties für Themes
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Detailierte Kursseiten mit Filter- und Suchfunktion.

@@ -1,0 +1,18 @@
+# GitHub Commands für Schritt 12 - Design-Konsistenz-Audit
+
+git add .
+git commit -m "Schritt 12: Design-Konsistenz-Audit und Vereinheitlichung
+
+- CSS-Variablen für konsistentes Design-System eingeführt
+- Abstände, Schriftgrößen und Farben standardisiert
+- Inkonsistenzen in Cards und Boxen behoben
+- Mobile-Optimierung vereinheitlicht
+- Code-Wartbarkeit verbessert und Redundanzen entfernt
+- Ruhiges, lernfreundliches Gesamtbild geschaffen
+
+Änderungen:
+- SoT/012_design_konsistenz_audit.txt erstellt
+- css/style.css mit Design-Variablen überarbeitet
+- Konsistente Spacing-, Typography- und Color-Systeme"
+
+git push origin main

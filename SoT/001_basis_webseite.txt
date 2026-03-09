@@ -1,0 +1,36 @@
+Structure-of-Thought: 001_basis_webseite.txt
+
+=== ZIELE ===
+Erstellung einer einfachen, modernen Standard-Webseite als Grundlage für eine spätere Lernplattform.
+Fokus auf saubere Struktur, responsives Design und semantisches HTML.
+
+=== GEDANKENGANG ===
+1. Zuerst die grundlegende Projektstruktur anlegen
+2. Semantisches HTML5 mit header, main, footer erstellen
+3. Modernes CSS mit Flexbox/Grid für Responsivität
+4. Minimalen JavaScript-Platzhalter einfügen
+5. Keine komplexen Funktionen - nur reine Präsentation
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Hauptseite mit semantischem HTML
+├── css\
+│   └── style.css       # Modernes, responsives Stylesheet
+└── js\
+    └── script.js       # JavaScript-Platzhalter
+
+=== INHALTLICHE ANFORDERUNGEN ===
+- Titel: "Dao-Yu-101 Lernplattform"
+- Kurze Begrüßung und Beschreibung
+- Keine Navigation, keine Kurse, kein Login
+- Nur Basis-Präsentationsschicht
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Dateien (HTML, CSS, JavaScript)
+- GitHub Pages kompatibel
+- Responsives Design
+- Sauberer, gut kommentierter Code
+- Relative Pfade für Ressourcen
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Erweiterung zur Lernplattform-Struktur mit Navigation und Kursen.

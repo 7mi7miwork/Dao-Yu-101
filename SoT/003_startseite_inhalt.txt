@@ -1,0 +1,57 @@
+Structure-of-Thought: 003_startseite_inhalt.txt
+
+=== ZIELE ===
+Verfeinerung der Startseite inhaltlich mit klarer Mission und vorbereitendem Charakter.
+Fokus auf ruhige, informative Gestaltung ohne Navigation oder Kurse - reine Vorbereitung für spätere Schritte.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Schritte: Basis-Webseite (001) und Navigation/Kurse (002) wurden übersprungen
+2. Rückkehr zu rein informativer Startseite gemäß ursprünglicher Planung
+3. Entfernung von Navigation und Kursen aus index.html
+4. Ergänzung klarer Mission und "Was dich hier erwartet"-Sektion
+5. Schaffung ruhiger, einladender Atmosphäre für zukünftige Lernplattform
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Vereinfacht auf rein informative Startseite
+├── css\
+│   └── style.css       # Angepasstes CSS ohne Navigation/Kurs-Styles
+├── js\
+│   └── script.js       # Minimal JavaScript (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    └── 003_startseite_inhalt.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+- Klare Überschrift: Mission/Zweck der Lernplattform
+- Abschnitt "Was dich hier erwartet" mit vorbereitenden Informationen
+- KEINE Navigation (entfernen)
+- KEINE Kurse (entfernen)
+- KEIN Login
+- Rein informativ, ruhig, vorbereitend
+- Einladende, professionelle Tonalität
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Dateien (HTML, CSS, JavaScript)
+- GitHub Pages kompatibel
+- Responsives Design beibehalten
+- Sauberes, semantisches HTML
+- CSS bereinigen um nicht benötigte Styles
+
+=== STRUKTURENTSCHEIDUNGEN ===
+1. Hero-Bereich mit klarer Mission
+2. Willkommensabschnitt mit Einladung
+3. "Was dich hier erwartet" mit Ausblick
+4. Unsere Vision mit pädagogischem Fokus
+5. Footer mit Basis-Informationen
+
+=== WARUM DIESE STRUKTUR ===
+- Schafft ruhige, einladende Atmosphäre
+- Bereitet Nutzer auf zukünftige Funktionen vor
+- Vermeidet Überforderung durch zu viele Informationen
+- Ermöglicht schrittweise Einführung von Funktionen
+- Professioneller erster Eindruck ohne technische Komplexität
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Einführung einfacher Navigation oder spezifischer Lerninhalte basierend auf Nutzer-Feedback.

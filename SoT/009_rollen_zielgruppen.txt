@@ -1,0 +1,99 @@
+Structure-of-Thought: 009_rollen_zielgruppen.txt
+
+=== ZIELE ===
+Einführung eines statischen Rollen- & Zielgruppen-Konzepts als Grundlage für zukünftige Personalisierung und Nutzerführung.
+Schaffung einer neuen "Für wen ist diese Lernplattform?" Sektion mit mindestens 3 definierten Rollen.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003) → Lernbereiche-Layout (004) → Modul-Template (005) → Übungstypen (006) → Lernpfade/Level (007) → Modul-Detail-Template (008)
+2. Ergänzung um Rollen- & Zielgruppen-Konzept als wichtige Ergänzung der didaktischen Architektur
+3. Schaffung einer neuen Sektion "Für wen ist diese Lernplattform?" mit visuellen Rollen-Karten
+4. Definition von 3 Kernrollen: Lernende, Lehrende, Selbstlernende/Projektinteressierte
+5. Vorbereitung für spätere Personalisierung und zielgruppenspezifische Inhalte
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Rollen- & Zielgruppen-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Rollen-Karten
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    ├── 005_modul_template.txt
+    ├── 006_uebungstypen.txt
+    ├── 007_lernpfade_level.txt
+    ├── 008_modul_detail_template.txt
+    └── 009_rollen_zielgruppen.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "Für wen ist diese Lernplattform?" mit 3 statischen Rollen-Karten:
+1. **Lernende**
+   - Kurzbeschreibung: Personen, die aktiv Wissen und Kompetenzen erwerben möchten
+   - Ziel: Strukturiertes Lernen mit klaren Fortschritten und nachweisbaren Erfolgen
+   - Nutzung: Durchlaufen von Lernpfaden, Bearbeiten von Modulen, Zertifikate erwerben
+
+2. **Lehrende**
+   - Kurzbeschreibung: Pädagogen, Trainer und Wissensvermittler, die Lerninhalte erstellen und betreuen
+   - Ziel: Effektive Wissensvermittlung und Lernbegleitung mit didaktischen Werkzeugen
+   - Nutzung: Erstellen von Kursen, Betreuen von Lernenden, Verfolgen von Lernfortschritten
+
+3. **Selbstlernende / Projektinteressierte**
+   - Kurzbeschreibung: Engagierte Einzelpersonen, die eigenständig Projekte umsetzen und Kompetenzen erweitern
+   - Ziel: Flexibler Zugang zu Wissen und praktischen Ressourcen für konkrete Projekte
+   - Nutzung: Gezieltes Nachschlagen von Themen, Anwenden von Praxisbeispielen, Vernetzung
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Zielgruppenorientierung**: Klare Kommunikation, wer von der Plattform profitiert
+2. **Erwartungsmanagement**: Transparente Darstellung der Nutzungsmöglichkeiten
+3. **Identifikation**: Hilft Nutzern, sich in der Plattform wiederzufinden
+4. **Motivationsaufbau**: Zeigt konkrete Anwendungsfälle und Nutzen
+5. **Personalisierungsvorbereitung**: Legt Grundlage für spätere zielgruppenspezifische Features
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statische Rollen-Karten ohne Interaktion
+- Semantisches HTML5 (section, article, h3, p, ul)
+- Responsive Darstellung für alle Endgeräte
+- Klare visuelle Abgrenzung der Rollen durch Card-Design
+- Einheitliches Design mit bestehendem Farbschema
+- GitHub Pages kompatibel
+- Mobile-First Ansatz
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Rollen durch Karten-Design
+2. **Konsistente Farben**: Weiterführung des bestehenden Farbschemas mit Rollen-spezifischen Akzenten
+3. **Gute Lesbarkeit**: Ausreichend Kontrast und klare Typografie
+4. **Mobile-First**: Optimale Darstellung auf allen Geräten
+5. **Ruhige Ästhetik**: Keine überladenen Animationen, dezente Hover-Effekte
+
+=== WARUM ROLLEN & ZIELGRUPPEN WICHTIG SIND ===
+- **Nutzerzentrierung**: Stellt die Bedürfnisse verschiedener Nutzergruppen in den Mittelpunkt
+- **Klarheit**: Schafft Verständnis für die Vielfalt der Nutzungsmöglichkeiten
+- **Entscheidungshilfe**: Hilft potenziellen Nutzern bei der Entscheidungsfindung
+- **Ansprache**: Ermöglicht zielgruppengerechte Kommunikation
+- **Skalierbarkeit**: Bereitet die Plattform auf unterschiedliche Nutzertypen vor
+
+=== VORBEREITUNG FÜR SPÄTERE PERSONALISIERUNG ===
+1. **Lernende**: Später personalisierte Lernpfade und adaptive Inhalte
+2. **Lehrende**: Später erweiterte Autorenwerkzeuge und Analyse-Funktionen
+3. **Selbstlernende**: Später flexible Wissenssuche und projektbasierte Lernmodule
+4. **Tracking**: Struktur ermöglicht spätere nutzgruppenspezifische Analyse
+5. **Features**: Template ermöglicht gezielte Feature-Entwicklung pro Rolle
+
+=== INTEGRATION IN BESTEHENDE STRUKTUR ===
+1. **Positionierung**: Logische Ergänzung nach didaktischen Konzepten, vor praktischen Beispielen
+2. **Konsistentes Design**: Farbschema und Typografie passen zur bestehenden Seite
+3. **Semantische Struktur**: Verwendung gleicher HTML-Elemente wie in anderen Sektionen
+4. **Responsive Integration**: Rollen-Karten passen sich bestehendem Layout an
+5. **Skalierbarkeit**: Struktur ermöglicht einfache Erweiterung um weitere Rollen
+
+=== ROLLEN-SPEZIFISCHE NUTZUNGSSZENARIEN ===
+1. **Lernende**: Lineare Lernpfade, Zertifikate, Community-Teilnahme
+2. **Lehrende**: Kurserstellung, Lernenden-Coaching, Qualitätsmanagement
+3. **Selbstlernende**: Flexible Wissenssuche, Projektvorlagen, Ressourcen-Zugriff
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Implementierung einfacher Personalisierungs-Features oder Erstellung zielgruppenspezifischer Einstiegsseiten für die verschiedenen Rollen.

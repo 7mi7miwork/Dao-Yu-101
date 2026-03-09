@@ -1,0 +1,78 @@
+Structure-of-Thought: 005_modul_template.txt
+
+=== ZIELE ===
+Einführung eines statischen didaktischen Modul-Templates als Grundlage für zukünftige Lerninhalte.
+Schaffung einer standardisierten Struktur für alle Lernmodule mit klarem didaktischem Aufbau.
+
+=== GEDANKENGANG ===
+1. Analyse bisheriger Entwicklung: Basis-Webseite (001) → Navigation/Kurse (002 übersprungen) → Informative Startseite (003) → Lernbereiche-Layout (004)
+2. Ergänzung um konkretes Modul-Template als Beispiel für zukünftige Inhalte
+3. Schaffung einer "So ist ein Lernmodul aufgebaut" Sektion
+4. Standardisierung der didaktischen Struktur für alle zukünftigen Module
+5. Vorbereitung für skalierbare Inhaltserstellung
+
+=== PROJEKTSTRUKTUR ===
+D:\Codes\Windsurf\Dao-Yu-101\
+├── index.html          # Erweitert um Modul-Template-Sektion
+├── css\
+│   └── style.css       # Neue Styles für Modul-Template
+├── js\
+│   └── script.js       # Unverändert (Platzhalter)
+└── SoT\
+    ├── 001_basis_webseite.txt
+    ├── 002_navigation_kurse.txt
+    ├── 003_startseite_inhalt.txt
+    ├── 004_lernbereiche_layout.txt
+    └── 005_modul_template.txt  # Diese Datei
+
+=== INHALTLICHE ANFORDERUNGEN ===
+Neue Sektion "So ist ein Lernmodul aufgebaut" mit:
+- Titel des Moduls (klar erkennbar)
+- Lernziel (kurzer, prägnanter Text)
+- Inhalt / Erklärung (Platzhalter für didaktischen Inhalt)
+- Aufgabe / Übung (praktische Anwendung ohne Code)
+
+=== DIDAKTISCHE FUNKTION ===
+1. **Standardisierung**: Etabliert einheitliche Struktur für alle Lernmodule
+2. **Orientierung**: Zeigt Nutzern den Aufbau zukünftiger Lerninhalte
+3. **Erwartungsmanagement**: Klare Kommunikation über Lernformat und -ablauf
+4. **Skalierbarkeit**: Schafft wiederverwendbare Vorlage für Inhaltsersteller
+5. **Qualitätssicherung**: Stellt sicher, dass alle Module didaktische Kriterien erfüllen
+
+=== TECHNISCHE ANFORDERUNGEN ===
+- Statisches Modul-Template ohne Interaktion
+- Semantisches HTML5 (section, article, h*, p)
+- Responsive Darstellung für alle Endgeräte
+- Klare visuelle Trennung der Modul-Teile
+- Moderne Card-Design mit guter Lesbarkeit
+- GitHub Pages kompatibel
+
+=== DESIGN-ENTSCHEIDUNGEN ===
+1. **Visuelle Hierarchie**: Klare Abgrenzung der Modul-Komponenten
+2. **Konsistente Farben**: Weiterführung des bestehenden Farbschemas
+3. **Gute Lesbarkeit**: Ausreichend Kontrast und klare Typografie
+4. **Mobile-First**: Optimale Darstellung auf allen Geräten
+5. **Ruhige Ästhetik**: Keine überladenen Animationen
+
+=== WARUM EIN MODUL-TEMPLATE WICHTIG IST ===
+- **Effizienz**: Beschleunigt die Erstellung neuer Lerninhalte
+- **Konsistenz**: Stellt einheitliche Qualität sicher
+- **Nutzererfahrung**: Schafft vertraute Lernumgebung
+- **Wartbarkeit**: Ermöglicht einfache Updates und Änderungen
+- **Skalierbarkeit**: Bereitet Plattform auf viele Module vor
+
+=== AUFBAU EINES MODULS ===
+1. **Titel**: Klar verständliche Bezeichnung des Lerninhalts
+2. **Lernziel**: Was der Nutzer nach dem Modul können/kennen wird
+3. **Inhalt**: Didaktisch aufbereitete Erklärung des Themas
+4. **Aufgabe**: Praktische Übung zur Anwendung des Gelernten
+
+=== SKALIERUNGSMÖGLICHKEITEN ===
+1. **Inhaltstypen**: Template für verschiedene Lernformate anpassbar
+2. **Schwierigkeitsgrade**: Struktur unterstützt Beginner bis Fortgeschrittene
+3. **Medienintegration**: Platzhalter für Bilder, Videos, Diagramme
+4. **Interaktivität**: Spätere Erweiterung um Tests und Übungen möglich
+5. **Personalisierung**: Struktur ermöglicht adaptive Lernpfade
+
+=== NÄCHSTE SCHRITTE ===
+Nach diesem Schritt: Befüllung des Templates mit echten Lerninhalten oder Erstellung mehrerer Beispiel-Module für verschiedene Lernbereiche.
