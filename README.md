@@ -4,7 +4,12 @@
 
 2. mcworld
 
-2.1 script
+2.1 script improved!
+
+- hub island more natural
+- lesson island mske them thene based different bioms
+- lesson sections
+
 
 2.2 npc program
 use the command function
