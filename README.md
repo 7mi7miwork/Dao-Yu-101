@@ -7,9 +7,9 @@
 2.1 script improved!
 
 - hub island more natural
-- lesson island mske them thene based different bioms
-- lesson sections
-
+- lesson island make them theme based with different bioms
+- lesson sections needs more like parts of the island not a field
+- 
 
 2.2 npc program
 use the command function
